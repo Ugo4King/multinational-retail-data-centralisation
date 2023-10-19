@@ -72,7 +72,7 @@ To run this project, you need Python installed on your system. You should also h
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/data-extraction-cleaning.git
+   git@github.com:Ugo4King/multinational-retail-data-centralisation.git
    ```
 
 2. Install the required Python libraries:
