@@ -15,3 +15,1501 @@
 2023-08-22 00:36:44.810 BST [11229] LOG:  checkpoint complete: wrote 11 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.029 s, sync=0.097 s, total=1.353 s; sync files=9, longest=0.082 s, average=0.011 s; distance=5 kB, estimate=3612 kB
 2023-08-22 00:51:43.997 BST [11229] LOG:  checkpoint starting: time
 2023-08-22 00:51:44.502 BST [11229] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.302 s, sync=0.054 s, total=0.505 s; sync files=2, longest=0.054 s, average=0.027 s; distance=10 kB, estimate=3252 kB
+2023-10-19 03:55:59.374 BST [15650] LOG:  starting PostgreSQL 15.3 on x86_64-conda-linux-gnu, compiled by x86_64-conda-linux-gnu-cc (conda-forge gcc 12.3.0-0) 12.3.0, 64-bit
+2023-10-19 03:55:59.374 BST [15650] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-10-19 03:55:59.464 BST [15650] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2023-10-19 03:55:59.701 BST [15654] LOG:  database system was interrupted; last known up at 2023-10-01 00:14:02 BST
+2023-10-19 03:56:00.071 BST [15654] LOG:  database system was not properly shut down; automatic recovery in progress
+2023-10-19 03:56:00.170 BST [15654] LOG:  redo starts at 0/5148588
+2023-10-19 03:56:00.170 BST [15654] LOG:  invalid record length at 0/5148670: wanted 24, got 0
+2023-10-19 03:56:00.170 BST [15654] LOG:  redo done at 0/5148638 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.02 s
+2023-10-19 03:56:00.265 BST [15652] LOG:  checkpoint starting: end-of-recovery immediate wait
+2023-10-19 03:56:00.499 BST [15652] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.069 s, sync=0.031 s, total=0.297 s; sync files=2, longest=0.020 s, average=0.016 s; distance=0 kB, estimate=0 kB
+2023-10-19 03:56:00.563 BST [15650] LOG:  database system is ready to accept connections
+2023-10-19 04:01:00.613 BST [15652] LOG:  checkpoint starting: time
+2023-10-19 04:01:55.537 BST [15652] LOG:  checkpoint complete: wrote 547 buffers (3.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=54.711 s, sync=0.053 s, total=54.924 s; sync files=28, longest=0.051 s, average=0.002 s; distance=8962 kB, estimate=8962 kB
+2023-10-19 04:06:00.557 BST [15652] LOG:  checkpoint starting: time
+2023-10-19 04:06:55.026 BST [15652] LOG:  checkpoint complete: wrote 63 buffers (0.4%); 0 WAL file(s) added, 0 removed, 0 recycled; write=54.281 s, sync=0.003 s, total=54.470 s; sync files=29, longest=0.001 s, average=0.001 s; distance=4588 kB, estimate=8525 kB
+2023-10-19 04:11:00.126 BST [15652] LOG:  checkpoint starting: time
+2023-10-19 04:11:58.329 BST [15652] LOG:  checkpoint complete: wrote 578 buffers (3.5%); 0 WAL file(s) added, 0 removed, 1 recycled; write=57.942 s, sync=0.058 s, total=58.203 s; sync files=30, longest=0.031 s, average=0.002 s; distance=9083 kB, estimate=9083 kB
+2023-10-19 04:21:00.526 BST [15652] LOG:  checkpoint starting: time
+2023-10-19 04:21:53.671 BST [15652] LOG:  checkpoint complete: wrote 529 buffers (3.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=52.911 s, sync=0.073 s, total=53.146 s; sync files=24, longest=0.048 s, average=0.004 s; distance=4500 kB, estimate=8625 kB
+2023-10-19 04:26:00.760 BST [15652] LOG:  checkpoint starting: time
+2023-10-19 04:27:00.238 BST [15652] LOG:  checkpoint complete: wrote 592 buffers (3.6%); 0 WAL file(s) added, 0 removed, 1 recycled; write=59.250 s, sync=0.062 s, total=59.478 s; sync files=33, longest=0.036 s, average=0.002 s; distance=4823 kB, estimate=8244 kB
+2023-10-19 04:31:00.242 BST [15652] LOG:  checkpoint starting: time
+2023-10-19 04:31:07.444 BST [15652] LOG:  checkpoint complete: wrote 70 buffers (0.4%); 0 WAL file(s) added, 0 removed, 0 recycled; write=6.957 s, sync=0.083 s, total=7.203 s; sync files=28, longest=0.081 s, average=0.003 s; distance=476 kB, estimate=7468 kB
+2023-10-19 04:36:00.542 BST [15652] LOG:  checkpoint starting: time
+2023-10-19 04:37:00.330 BST [15652] LOG:  checkpoint complete: wrote 594 buffers (3.6%); 0 WAL file(s) added, 0 removed, 0 recycled; write=59.463 s, sync=0.093 s, total=59.788 s; sync files=33, longest=0.059 s, average=0.003 s; distance=4827 kB, estimate=7203 kB
+2023-10-19 04:41:00.430 BST [15652] LOG:  checkpoint starting: time
+2023-10-19 04:41:53.744 BST [15652] LOG:  checkpoint complete: wrote 527 buffers (3.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=52.977 s, sync=0.106 s, total=53.314 s; sync files=24, longest=0.078 s, average=0.005 s; distance=4480 kB, estimate=6931 kB
+2023-10-19 04:46:00.794 BST [15652] LOG:  checkpoint starting: time
+2023-10-19 04:47:00.469 BST [15652] LOG:  checkpoint complete: wrote 594 buffers (3.6%); 0 WAL file(s) added, 0 removed, 0 recycled; write=59.449 s, sync=0.100 s, total=59.675 s; sync files=33, longest=0.098 s, average=0.004 s; distance=5065 kB, estimate=6745 kB
+2023-10-19 05:01:00.730 BST [15652] LOG:  checkpoint starting: time
+2023-10-19 05:01:54.696 BST [15652] LOG:  checkpoint complete: wrote 537 buffers (3.3%); 0 WAL file(s) added, 0 removed, 1 recycled; write=53.709 s, sync=0.085 s, total=53.966 s; sync files=25, longest=0.055 s, average=0.004 s; distance=4560 kB, estimate=6526 kB
+2023-10-19 05:06:00.731 BST [15652] LOG:  checkpoint starting: time
+2023-10-19 05:06:08.058 BST [15652] LOG:  checkpoint complete: wrote 71 buffers (0.4%); 0 WAL file(s) added, 0 removed, 0 recycled; write=7.068 s, sync=0.101 s, total=7.327 s; sync files=31, longest=0.078 s, average=0.004 s; distance=417 kB, estimate=5915 kB
+2023-10-19 05:11:00.156 BST [15652] LOG:  checkpoint starting: time
+2023-10-19 05:11:53.846 BST [15652] LOG:  checkpoint complete: wrote 533 buffers (3.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=53.426 s, sync=0.085 s, total=53.691 s; sync files=24, longest=0.082 s, average=0.004 s; distance=4531 kB, estimate=5777 kB
+2023-10-19 05:16:00.869 BST [15652] LOG:  checkpoint starting: time
+2023-10-19 05:20:30.257 BST [15652] LOG:  checkpoint complete: wrote 1785 buffers (10.9%); 0 WAL file(s) added, 0 removed, 2 recycled; write=269.088 s, sync=0.091 s, total=269.388 s; sync files=42, longest=0.045 s, average=0.003 s; distance=25957 kB, estimate=25957 kB
+2023-10-19 05:26:00.363 BST [15652] LOG:  checkpoint starting: time
+2023-10-19 05:30:30.614 BST [15652] LOG:  checkpoint complete: wrote 3849 buffers (23.5%); 0 WAL file(s) added, 0 removed, 2 recycled; write=269.560 s, sync=0.493 s, total=270.251 s; sync files=38, longest=0.457 s, average=0.013 s; distance=37046 kB, estimate=37046 kB
+2023-10-19 06:05:13.617 BST [22705] ERROR:  syntax error at or near "count" at character 32
+2023-10-19 06:05:13.617 BST [22705] STATEMENT:  select country_code as country count(store_code) as total_no_stores
+	from dim_store_details
+	group by country_code
+2023-10-20 01:04:58.499 BST [10774] LOG:  starting PostgreSQL 15.3 on x86_64-conda-linux-gnu, compiled by x86_64-conda-linux-gnu-cc (conda-forge gcc 12.3.0-0) 12.3.0, 64-bit
+2023-10-20 01:04:58.500 BST [10774] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-10-20 01:04:58.652 BST [10774] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2023-10-20 01:04:59.012 BST [10777] LOG:  database system was interrupted; last known up at 2023-10-19 05:30:30 BST
+2023-10-20 01:04:59.331 BST [10777] LOG:  database system was not properly shut down; automatic recovery in progress
+2023-10-20 01:04:59.441 BST [10777] LOG:  redo starts at 0/C5CED78
+2023-10-20 01:04:59.451 BST [10777] LOG:  invalid record length at 0/C5D0DB8: wanted 24, got 0
+2023-10-20 01:04:59.451 BST [10777] LOG:  redo done at 0/C5D0D80 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.02 s
+2023-10-20 01:04:59.564 BST [10775] LOG:  checkpoint starting: end-of-recovery immediate wait
+2023-10-20 01:04:59.856 BST [10775] LOG:  checkpoint complete: wrote 5 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.060 s, sync=0.075 s, total=0.355 s; sync files=4, longest=0.053 s, average=0.019 s; distance=8 kB, estimate=8 kB
+2023-10-20 01:04:59.931 BST [10774] LOG:  database system is ready to accept connections
+2023-10-20 01:09:59.968 BST [10775] LOG:  checkpoint starting: time
+2023-10-20 01:10:08.779 BST [10775] LOG:  checkpoint complete: wrote 86 buffers (0.5%); 0 WAL file(s) added, 0 removed, 0 recycled; write=8.572 s, sync=0.084 s, total=8.811 s; sync files=28, longest=0.042 s, average=0.003 s; distance=568 kB, estimate=568 kB
+2023-10-20 02:40:01.312 BST [10775] LOG:  checkpoint starting: time
+2023-10-20 02:40:04.503 BST [10775] LOG:  checkpoint complete: wrote 28 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=2.736 s, sync=0.295 s, total=3.192 s; sync files=19, longest=0.275 s, average=0.016 s; distance=168 kB, estimate=528 kB
+2023-10-20 02:45:01.603 BST [10775] LOG:  checkpoint starting: time
+2023-10-20 02:45:04.474 BST [10775] LOG:  checkpoint complete: wrote 25 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=2.443 s, sync=0.243 s, total=2.871 s; sync files=18, longest=0.220 s, average=0.014 s; distance=140 kB, estimate=489 kB
+2023-10-20 02:55:01.658 BST [10775] LOG:  checkpoint starting: time
+2023-10-20 02:55:10.158 BST [10775] LOG:  checkpoint complete: wrote 83 buffers (0.5%); 0 WAL file(s) added, 0 removed, 0 recycled; write=8.265 s, sync=0.075 s, total=8.500 s; sync files=29, longest=0.036 s, average=0.003 s; distance=563 kB, estimate=563 kB
+2023-10-20 03:00:01.257 BST [10775] LOG:  checkpoint starting: time
+2023-10-20 03:04:31.291 BST [10775] LOG:  checkpoint complete: wrote 2869 buffers (17.5%); 0 WAL file(s) added, 0 removed, 2 recycled; write=269.715 s, sync=0.089 s, total=270.034 s; sync files=43, longest=0.057 s, average=0.003 s; distance=26278 kB, estimate=26278 kB
+2023-10-20 06:35:04.529 BST [10775] LOG:  checkpoint starting: time
+2023-10-20 06:37:44.337 BST [10775] LOG:  checkpoint complete: wrote 1592 buffers (9.7%); 0 WAL file(s) added, 0 removed, 1 recycled; write=159.457 s, sync=0.070 s, total=159.809 s; sync files=36, longest=0.038 s, average=0.002 s; distance=15884 kB, estimate=25239 kB
+2023-10-20 06:45:15.614 BST [64803] ERROR:  syntax error at or near "ALTER" at character 59
+2023-10-20 06:45:15.614 BST [64803] STATEMENT:  ALTER TABLE orders_table
+	ALTER COLUMN date_uuid TYPE UUID
+	ALTER COLUMN user_uuid TYPE UUID
+	ALTER COLUMN card_number TYPE VARCHAR(20)
+	ALTER COLUMN store_code TYPE VARCHAR(20)
+	ALTER COLUMN product_code TYPE VARCHAR(20)
+	ALTER COLUMN product_quantity TYPE SMALLINT
+	-- ALTER TABLE orders_table
+	-- ALTER COLUMN date_uuid TYPE UUID
+	-- ALTER COLUMN user_uuid TYPE UUID
+	-- ALTER COLUMN card_number TYPE VARCHAR(20)
+	-- ALTER COLUMN store_code TYPE VARCHAR(20)
+	-- ALTER COLUMN product_code TYPE VARCHAR(20)
+	-- ALTER COLUMN product_quantity TYPE SMALLINT
+2023-10-20 06:46:48.788 BST [64803] ERROR:  column "date_uuid" cannot be cast automatically to type uuid
+2023-10-20 06:46:48.788 BST [64803] HINT:  You might need to specify "USING date_uuid::uuid".
+2023-10-20 06:46:48.788 BST [64803] STATEMENT:  -- Alter the data type of the 'date_uuid' column
+	ALTER TABLE orders_table
+	ALTER COLUMN date_uuid TYPE UUID;
+	
+	-- Alter the data type of the 'user_uuid' column
+	ALTER TABLE orders_table
+	ALTER COLUMN user_uuid TYPE UUID;
+	
+	-- Alter the data type of the 'card_number' column
+	ALTER TABLE orders_table
+	ALTER COLUMN card_number TYPE VARCHAR(20);
+	
+	-- Alter the data type of the 'store_code' column
+	ALTER TABLE orders_table
+	ALTER COLUMN store_code TYPE VARCHAR(20);
+	
+	-- Alter the data type of the 'product_code' column
+	ALTER TABLE orders_table
+	ALTER COLUMN product_code TYPE VARCHAR(20);
+	
+	-- Alter the data type of the 'product_quantity' column
+	ALTER TABLE orders_table
+	ALTER COLUMN product_quantity TYPE SMALLINT;
+	
+	-- ALTER TABLE orders_table
+	-- ALTER COLUMN date_uuid TYPE UUID
+	-- ALTER COLUMN user_uuid TYPE UUID
+	-- ALTER COLUMN card_number TYPE VARCHAR(20)
+	-- ALTER COLUMN store_code TYPE VARCHAR(20)
+	-- ALTER COLUMN product_code TYPE VARCHAR(20)
+	-- ALTER COLUMN product_quantity TYPE SMALLINT
+2023-10-20 06:50:04.638 BST [10775] LOG:  checkpoint starting: time
+2023-10-20 06:50:05.157 BST [10775] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.225 s, sync=0.062 s, total=0.520 s; sync files=3, longest=0.043 s, average=0.021 s; distance=6 kB, estimate=22715 kB
+2023-10-20 06:55:04.820 BST [10775] LOG:  checkpoint starting: time
+2023-10-20 06:57:47.744 BST [10775] LOG:  checkpoint complete: wrote 1625 buffers (9.9%); 0 WAL file(s) added, 0 removed, 6 recycled; write=162.472 s, sync=0.061 s, total=162.925 s; sync files=29, longest=0.034 s, average=0.003 s; distance=99069 kB, estimate=99069 kB
+2023-10-20 07:02:37.962 BST [64803] ERROR:  syntax error at or near "ADD" at character 613
+2023-10-20 07:02:37.962 BST [64803] STATEMENT:  -- Alter the data type of the 'date_uuid' column
+	ALTER TABLE dim_user_table
+	ALTER COLUMN first_name TYPE VARCHAR(225);
+	
+	-- Alter the data type of the 'user_uuid' column
+	ALTER TABLE dim_user_table
+	ALTER COLUMN last_name TYPE VARCHAR(225);
+	
+	-- Alter the data type of the 'card_number' column
+	ALTER TABLE dim_user_table
+	ALTER COLUMN date_of_birth TYPE DATE;
+	
+	-- Alter the data type of the 'store_code' column
+	ALTER TABLE dim_user_table
+	ALTER COLUMN country_code TYPE VARCHAR(20);
+	
+	-- Alter the data type of the 'product_code' column
+	ALTER TABLE dim_user_table
+	ALTER COLUMN user_uuid TYPE UUID
+	USING user_uuid::UUID
+	ADD PRIMARY KEY (user_uuid);
+	
+	-- Alter the data type of the 'product_quantity' column
+	ALTER TABLE dim_user_table
+	ALTER COLUMN join_date TYPE DATE;
+2023-10-20 07:03:17.179 BST [64803] ERROR:  relation "dim_user_table" does not exist
+2023-10-20 07:03:17.179 BST [64803] STATEMENT:  -- Alter the data type of the 'date_uuid' column
+	ALTER TABLE dim_user_table
+	ALTER COLUMN first_name TYPE VARCHAR(225);
+	
+	-- Alter the data type of the 'user_uuid' column
+	ALTER TABLE dim_user_table
+	ALTER COLUMN last_name TYPE VARCHAR(225);
+	
+	-- Alter the data type of the 'card_number' column
+	ALTER TABLE dim_user_table
+	ALTER COLUMN date_of_birth TYPE DATE;
+	
+	-- Alter the data type of the 'store_code' column
+	ALTER TABLE dim_user_table
+	ALTER COLUMN country_code TYPE VARCHAR(20);
+	
+	-- Alter the data type of the 'product_code' column
+	ALTER TABLE dim_user_table
+	ALTER COLUMN user_uuid TYPE UUID
+	USING user_uuid::UUID;
+	
+	-- Alter the data type of the 'product_quantity' column
+	ALTER TABLE dim_user_table
+	ALTER COLUMN join_date TYPE DATE;
+2023-10-20 07:10:04.941 BST [10775] LOG:  checkpoint starting: time
+2023-10-20 07:10:57.320 BST [10775] LOG:  checkpoint complete: wrote 522 buffers (3.2%); 0 WAL file(s) added, 0 removed, 1 recycled; write=52.111 s, sync=0.053 s, total=52.380 s; sync files=33, longest=0.025 s, average=0.002 s; distance=25672 kB, estimate=91729 kB
+2023-10-20 07:15:04.384 BST [10775] LOG:  checkpoint starting: time
+2023-10-20 07:15:06.947 BST [10775] LOG:  checkpoint complete: wrote 23 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=2.235 s, sync=0.155 s, total=2.564 s; sync files=22, longest=0.110 s, average=0.008 s; distance=512 kB, estimate=82607 kB
+2023-10-20 07:15:50.543 BST [64803] ERROR:  relation "dim_users" does not exist
+2023-10-20 07:15:50.543 BST [64803] STATEMENT:  ALTER TABLE dim_users
+	RENAME TO dim_users_table;
+2023-10-20 07:20:05.046 BST [10775] LOG:  checkpoint starting: time
+2023-10-20 07:20:06.256 BST [10775] LOG:  checkpoint complete: wrote 10 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.928 s, sync=0.140 s, total=1.211 s; sync files=9, longest=0.119 s, average=0.016 s; distance=44 kB, estimate=74351 kB
+2023-10-20 07:25:05.301 BST [10775] LOG:  checkpoint starting: time
+2023-10-20 07:25:07.918 BST [10775] LOG:  checkpoint complete: wrote 23 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=2.234 s, sync=0.200 s, total=2.617 s; sync files=18, longest=0.186 s, average=0.012 s; distance=55 kB, estimate=66921 kB
+2023-10-20 09:22:16.585 BST [64803] ERROR:  column "opening_date" cannot be cast automatically to type date
+2023-10-20 09:22:16.585 BST [64803] HINT:  You might need to specify "USING opening_date::date".
+2023-10-20 09:22:16.585 BST [64803] STATEMENT:  -- Alter the data type of the 'date_uuid' column
+	ALTER TABLE dim_store_details
+	ALTER COLUMN longitude TYPE FLOAT;
+	
+	-- Alter the data type of the 'user_uuid' column
+	ALTER TABLE dim_store_details
+	ALTER COLUMN locality TYPE VARCHAR(225);
+	
+	-- Alter the data type of the 'card_number' column
+	ALTER TABLE dim_store_details
+	ALTER COLUMN store_code TYPE VARCHAR(20);
+	
+	-- Alter the data type of the 'store_code' column
+	ALTER TABLE dim_store_details
+	ALTER COLUMN staff_numbers TYPE SMALLINT;
+	
+	-- Alter the data type of the 'product_code' column
+	ALTER TABLE dim_store_details
+	ALTER COLUMN opening_date TYPE DATE;
+	
+	-- Alter the data type of the 'product_quantity' column
+	ALTER TABLE dim_store_details
+	ALTER COLUMN store_type TYPE VARCHAR(225);
+	
+	-- Alter the data type of the 'store_code' column
+	ALTER TABLE dim_store_details
+	ALTER COLUMN latitude TYPE FLOAT;
+	
+	-- Alter the data type of the 'product_code' column
+	ALTER TABLE dim_store_details
+	ALTER COLUMN country_code TYPE VARCHAR(20);
+	
+	-- Alter the data type of the 'product_quantity' column
+	ALTER TABLE dim_store_details
+	ALTER COLUMN continent TYPE VARCHAR(225);
+2023-10-20 09:25:07.649 BST [10775] LOG:  checkpoint starting: time
+2023-10-20 09:25:16.733 BST [10775] LOG:  checkpoint complete: wrote 88 buffers (0.5%); 0 WAL file(s) added, 0 removed, 0 recycled; write=8.759 s, sync=0.162 s, total=9.085 s; sync files=40, longest=0.097 s, average=0.005 s; distance=1373 kB, estimate=60366 kB
+2023-10-20 09:27:56.294 BST [64803] ERROR:  relation "dim_user_table" does not exist
+2023-10-20 09:27:56.294 BST [64803] STATEMENT:  ALTER TABLE dim_user_table
+	ADD PRIMARY KEY (store_code)
+2023-10-20 09:28:10.136 BST [64803] ERROR:  column "store_code" of relation "dim_users_table" does not exist
+2023-10-20 09:28:10.136 BST [64803] STATEMENT:  ALTER TABLE dim_users_table
+	ADD PRIMARY KEY (store_code)
+2023-10-20 09:30:07.833 BST [10775] LOG:  checkpoint starting: time
+2023-10-20 09:30:14.166 BST [10775] LOG:  checkpoint complete: wrote 61 buffers (0.4%); 0 WAL file(s) added, 0 removed, 0 recycled; write=6.048 s, sync=0.129 s, total=6.333 s; sync files=25, longest=0.105 s, average=0.006 s; distance=243 kB, estimate=54354 kB
+2023-10-20 09:35:32.283 BST [64803] ERROR:  insert or update on table "orders_table" violates foreign key constraint "fk_store_code"
+2023-10-20 09:35:32.283 BST [64803] DETAIL:  Key (store_code)=(WEB-1388012W) is not present in table "dim_store_details".
+2023-10-20 09:35:32.283 BST [64803] STATEMENT:  -- Add a foreign key constraint to the 'store_code' column in 'orders_table'
+	ALTER TABLE orders_table
+	ADD CONSTRAINT fk_store_code
+	FOREIGN KEY (store_code)
+	REFERENCES dim_store_details (store_code);
+	
+2023-10-20 09:40:07.364 BST [10775] LOG:  checkpoint starting: time
+2023-10-20 09:40:09.254 BST [10775] LOG:  checkpoint complete: wrote 16 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.526 s, sync=0.151 s, total=1.890 s; sync files=15, longest=0.130 s, average=0.011 s; distance=56 kB, estimate=48924 kB
+2023-10-20 11:07:14.218 BST [64803] ERROR:  operator does not exist: character varying =! unknown at character 45
+2023-10-20 11:07:14.218 BST [64803] HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+2023-10-20 11:07:14.218 BST [64803] STATEMENT:  select * from orders_table
+	where store_code =!'WEB-1388012W';
+2023-10-20 11:11:59.372 BST [64803] ERROR:  syntax error at or near ";" at character 89
+2023-10-20 11:11:59.372 BST [64803] STATEMENT:  CREATE TABLE order_new AS
+	(SELECT *
+	FROM orders_table
+	WHERE store_code <> 'WEB-1388012W';)
+	
+2023-10-20 11:12:16.452 BST [64803] ERROR:  syntax error at or near "0" at character 89
+2023-10-20 11:12:16.452 BST [64803] STATEMENT:  CREATE TABLE order_new AS
+	(SELECT *
+	FROM orders_table
+	WHERE store_code <> 'WEB-1388012W'0);
+2023-10-20 11:16:35.585 BST [10775] LOG:  checkpoint starting: time
+2023-10-20 11:18:43.167 BST [10775] LOG:  checkpoint complete: wrote 1271 buffers (7.8%); 0 WAL file(s) added, 0 removed, 1 recycled; write=127.175 s, sync=0.174 s, total=127.582 s; sync files=36, longest=0.053 s, average=0.005 s; distance=12547 kB, estimate=45287 kB
+2023-10-20 11:21:36.418 BST [10775] LOG:  checkpoint starting: time
+2023-10-20 11:21:49.783 BST [10775] LOG:  checkpoint complete: wrote 131 buffers (0.8%); 0 WAL file(s) added, 0 removed, 0 recycled; write=13.081 s, sync=0.139 s, total=13.366 s; sync files=17, longest=0.119 s, average=0.009 s; distance=1041 kB, estimate=40862 kB
+2023-10-20 11:26:36.880 BST [10775] LOG:  checkpoint starting: time
+2023-10-20 11:26:37.465 BST [10775] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.325 s, sync=0.100 s, total=0.586 s; sync files=4, longest=0.087 s, average=0.025 s; distance=19 kB, estimate=36778 kB
+2023-10-20 11:29:00.203 BST [64803] ERROR:  column "ean" of relation "dim_products" does not exist
+2023-10-20 11:29:00.203 BST [64803] STATEMENT:  -- Alter the data type of the 'date_uuid' column
+	ALTER TABLE dim_products
+	ALTER COLUMN product_price TYPE FLOAT;
+	
+	-- Alter the data type of the 'user_uuid' column
+	ALTER TABLE dim_products
+	ALTER COLUMN weight TYPE FLOAT;
+	
+	-- Alter the data type of the 'card_number' column
+	ALTER TABLE dim_products
+	ALTER COLUMN EAN TYPE VARCHAR(225);
+	
+	-- Alter the data type of the 'store_code' column
+	ALTER TABLE dim_products
+	ALTER COLUMN product_code TYPE VARCHAR(225);
+	
+	-- Alter the data type of the 'product_code' column
+	ALTER TABLE dim_products
+	ALTER COLUMN date_added TYPE DATE
+	USING date_added::DATE;
+	
+	-- Alter the data type of the 'product_quantity' column
+	ALTER TABLE dim_products
+	ALTER COLUMN uuid TYPE UUID
+	USING uuid::UUID;
+	
+	-- Alter the data type of the 'store_code' column
+	ALTER TABLE dim_products
+	ALTER COLUMN still_available TYPE BOOL;
+	
+	-- Alter the data type of the 'product_code' column
+	ALTER TABLE dim_products
+	ALTER COLUMN weight_class TYPE VARCHAR(50);
+	
+2023-10-20 11:30:51.306 BST [64803] ERROR:  column "ean" of relation "dim_products" does not exist
+2023-10-20 11:30:51.306 BST [64803] STATEMENT:  -- Alter the data type of the 'card_number' column
+	ALTER TABLE dim_products
+	ALTER COLUMN EAN TYPE VARCHAR(225);
+2023-10-20 11:31:36.532 BST [10775] LOG:  checkpoint starting: time
+2023-10-20 11:31:37.749 BST [10775] LOG:  checkpoint complete: wrote 9 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.821 s, sync=0.155 s, total=1.217 s; sync files=6, longest=0.135 s, average=0.026 s; distance=18 kB, estimate=33102 kB
+2023-10-20 11:31:52.218 BST [64803] ERROR:  column "ean" does not exist
+2023-10-20 11:31:52.218 BST [64803] STATEMENT:  ALTER TABLE dim_products
+	RENAME COLUMN EAN TO ean;
+2023-10-20 11:34:48.914 BST [64803] ERROR:  column "still_available" cannot be cast automatically to type boolean
+2023-10-20 11:34:48.914 BST [64803] HINT:  You might need to specify "USING still_available::boolean".
+2023-10-20 11:34:48.914 BST [64803] STATEMENT:  -- Alter the data type of the 'store_code' column
+	ALTER TABLE dim_products
+	ALTER COLUMN still_available TYPE BOOL;
+2023-10-20 11:35:34.502 BST [64803] ERROR:  invalid input syntax for type boolean: "Removed"
+2023-10-20 11:35:34.502 BST [64803] STATEMENT:  ALTER TABLE dim_products
+	ALTER COLUMN still_available TYPE BOOL
+	USING still_available::boolean;
+2023-10-20 11:36:36.107 BST [64803] ERROR:  invalid input syntax for type boolean: "Removed"
+2023-10-20 11:36:36.107 BST [64803] STATEMENT:  ALTER TABLE dim_products
+	ALTER COLUMN still_available TYPE BOOL
+	USING (still_available::boolean);
+	
+2023-10-20 11:36:36.848 BST [10775] LOG:  checkpoint starting: time
+2023-10-20 11:36:47.731 BST [10775] LOG:  checkpoint complete: wrote 107 buffers (0.7%); 0 WAL file(s) added, 0 removed, 0 recycled; write=10.670 s, sync=0.063 s, total=10.884 s; sync files=29, longest=0.025 s, average=0.003 s; distance=1844 kB, estimate=29976 kB
+2023-10-20 11:46:36.928 BST [10775] LOG:  checkpoint starting: time
+2023-10-20 11:46:46.658 BST [10775] LOG:  checkpoint complete: wrote 95 buffers (0.6%); 0 WAL file(s) added, 0 removed, 0 recycled; write=9.475 s, sync=0.084 s, total=9.730 s; sync files=31, longest=0.038 s, average=0.003 s; distance=1401 kB, estimate=27118 kB
+2023-10-20 11:51:36.756 BST [10775] LOG:  checkpoint starting: time
+2023-10-20 11:51:37.340 BST [10775] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.347 s, sync=0.083 s, total=0.585 s; sync files=4, longest=0.065 s, average=0.021 s; distance=8 kB, estimate=24407 kB
+2023-10-20 11:53:11.211 BST [64803] ERROR:  cached plan must not change result type
+2023-10-20 11:53:11.211 BST [64803] STATEMENT:  SELECT *
+	FROM dim_products;
+2023-10-20 11:53:30.365 BST [64803] ERROR:  cached plan must not change result type
+2023-10-20 11:53:30.365 BST [64803] STATEMENT:  SELECT *
+	FROM dim_products;
+2023-10-20 11:53:41.048 BST [64803] ERROR:  cached plan must not change result type
+2023-10-20 11:53:41.048 BST [64803] STATEMENT:  SELECT *
+	FROM dim_products;
+2023-10-20 11:56:06.647 BST [64803] ERROR:  insert or update on table "order_new" violates foreign key constraint "fk_product_code"
+2023-10-20 11:56:06.647 BST [64803] DETAIL:  Key (store_code)=(BL-8387506C) is not present in table "dim_products".
+2023-10-20 11:56:06.647 BST [64803] STATEMENT:  ALTER TABLE order_new
+	ADD CONSTRAINT fk_product_code
+	FOREIGN KEY (store_code)
+	REFERENCES dim_products (product_code);
+2023-10-20 11:56:36.371 BST [10775] LOG:  checkpoint starting: time
+2023-10-20 11:56:39.854 BST [10775] LOG:  checkpoint complete: wrote 31 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.047 s, sync=0.240 s, total=3.483 s; sync files=26, longest=0.223 s, average=0.010 s; distance=167 kB, estimate=21983 kB
+2023-10-20 12:01:36.952 BST [10775] LOG:  checkpoint starting: time
+2023-10-20 12:01:38.899 BST [10775] LOG:  checkpoint complete: wrote 17 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.654 s, sync=0.140 s, total=1.948 s; sync files=16, longest=0.126 s, average=0.009 s; distance=63 kB, estimate=19791 kB
+2023-10-20 12:03:05.436 BST [64803] ERROR:  syntax error at or near "ALTER" at character 621
+2023-10-20 12:03:05.436 BST [64803] STATEMENT:  ALTER TABLE dim_date_times
+	ALTER COLUMN month TYPE VARCHAR(50);
+	
+	-- Alter the data type of the 'user_uuid' column
+	ALTER TABLE dim_date_times
+	ALTER COLUMN year TYPE VARCHAR(20);
+	
+	-- Alter the data type of the 'card_number' column
+	ALTER TABLE dim_date_times
+	ALTER COLUMN day TYPE VARCHAR(25);
+	
+	-- Alter the data type of the 'store_code' column
+	ALTER TABLE dim_date_times
+	ALTER COLUMN product_code TYPE VARCHAR(225);
+	
+	-- Alter the data type of the 'product_code' column
+	ALTER TABLE dim_date_times
+	ALTER COLUMN time_period TYPE VARCHAR(25)
+	-- USING date_added::DATE;
+	
+	-- Alter the data type of the 'product_quantity' column
+	ALTER TABLE dim_date_times
+	ALTER COLUMN date_uuid TYPE UUID
+	USING date_uuid::UUID;
+2023-10-20 12:11:37.097 BST [10775] LOG:  checkpoint starting: time
+2023-10-20 12:11:49.075 BST [64803] ERROR:  relation "order_table" does not exist at character 15
+2023-10-20 12:11:49.075 BST [64803] STATEMENT:  SELECT * FROM order_table;
+2023-10-20 12:13:49.783 BST [10775] LOG:  checkpoint complete: wrote 1320 buffers (8.1%); 0 WAL file(s) added, 0 removed, 5 recycled; write=132.396 s, sync=0.042 s, total=132.687 s; sync files=36, longest=0.024 s, average=0.002 s; distance=72483 kB, estimate=72483 kB
+2023-10-20 12:16:37.828 BST [10775] LOG:  checkpoint starting: time
+2023-10-20 12:17:35.649 BST [10775] LOG:  checkpoint complete: wrote 577 buffers (3.5%); 0 WAL file(s) added, 0 removed, 0 recycled; write=57.630 s, sync=0.035 s, total=57.822 s; sync files=28, longest=0.033 s, average=0.002 s; distance=3511 kB, estimate=65585 kB
+2023-10-20 12:18:06.273 BST [64803] ERROR:  column "date_payment_confirmed" does not exist at character 80
+2023-10-20 12:18:06.273 BST [64803] STATEMENT:  ALTER TABLE dim_date_times
+	ALTER COLUMN date_payment_confirmed TYPE DATE
+	USING date_payment_confirmed::DATE;
+2023-10-20 12:21:37.748 BST [10775] LOG:  checkpoint starting: time
+2023-10-20 12:21:42.062 BST [10775] LOG:  checkpoint complete: wrote 41 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=4.050 s, sync=0.110 s, total=4.315 s; sync files=33, longest=0.062 s, average=0.004 s; distance=241 kB, estimate=59051 kB
+2023-10-20 12:21:50.231 BST [64803] ERROR:  insert or update on table "order_new" violates foreign key constraint "fk_card_number"
+2023-10-20 12:21:50.231 BST [64803] DETAIL:  Key (card_number)=(4108484730579010) is not present in table "dim_card_details".
+2023-10-20 12:21:50.231 BST [64803] STATEMENT:  ALTER TABLE order_new
+	ADD CONSTRAINT fk_card_number
+	FOREIGN KEY (card_number)
+	REFERENCES dim_card_details (card_number);
+2023-10-20 12:23:39.312 BST [64803] ERROR:  syntax error at or near ")" at character 94
+2023-10-20 12:23:39.312 BST [64803] STATEMENT:  CREATE TABLE order_new_card AS
+	SELECT *
+	FROM order_new
+	WHERE store_code <> '4108484730579010');
+2023-10-20 12:24:51.674 BST [64803] ERROR:  insert or update on table "order_new_card" violates foreign key constraint "fk_card_number"
+2023-10-20 12:24:51.674 BST [64803] DETAIL:  Key (card_number)=(676293500408) is not present in table "dim_card_details".
+2023-10-20 12:24:51.674 BST [64803] STATEMENT:  ALTER TABLE order_new_card
+	ADD CONSTRAINT fk_card_number
+	FOREIGN KEY (card_number)
+	REFERENCES dim_card_details (card_number);
+2023-10-20 12:26:37.162 BST [10775] LOG:  checkpoint starting: time
+2023-10-20 12:28:45.035 BST [10775] LOG:  checkpoint complete: wrote 1273 buffers (7.8%); 0 WAL file(s) added, 0 removed, 1 recycled; write=127.578 s, sync=0.123 s, total=127.873 s; sync files=37, longest=0.095 s, average=0.004 s; distance=12535 kB, estimate=54399 kB
+2023-10-20 12:37:16.885 BST [64803] ERROR:  syntax error at or near "[" at character 46
+2023-10-20 12:37:16.885 BST [64803] STATEMENT:  SELECT *
+	FROM order_new
+	WHERE card_number <> ['4108484730579010','676293500408'];
+2023-10-20 12:37:33.309 BST [64803] ERROR:  syntax error at or near "," at character 64
+2023-10-20 12:37:33.309 BST [64803] STATEMENT:  SELECT *
+	FROM order_new
+	WHERE card_number <> '4108484730579010','676293500408';
+2023-10-20 13:38:06.591 BST [64803] ERROR:  operator does not exist: uuid == uuid at character 122
+2023-10-20 13:38:06.591 BST [64803] HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+2023-10-20 13:38:06.591 BST [64803] STATEMENT:  select d.month, (p.product_price*o.product_quntity) as sales
+	from orders_table as o
+	join dim_date_times d
+	on o.date_uuid == d.date_uuid
+	join dim_products p
+	on o.product_code == p.product_code
+	group by month
+	order by sales desc;
+2023-10-20 13:38:18.802 BST [64803] ERROR:  column o.product_quntity does not exist at character 34
+2023-10-20 13:38:18.802 BST [64803] HINT:  Perhaps you meant to reference the column "o.product_quantity".
+2023-10-20 13:38:18.802 BST [64803] STATEMENT:  select d.month, (p.product_price*o.product_quntity) as sales
+	from orders_table as o
+	join dim_date_times d
+	on o.date_uuid = d.date_uuid
+	join dim_products p
+	on o.product_code = p.product_code
+	group by month
+	order by sales desc;
+2023-10-20 13:40:07.775 BST [64803] ERROR:  column o.product_quntity does not exist at character 37
+2023-10-20 13:40:07.775 BST [64803] HINT:  Perhaps you meant to reference the column "o.product_quantity".
+2023-10-20 13:40:07.775 BST [64803] STATEMENT:  select d.month, sum(p.product_price*o.product_quntity) as sales
+	from orders_table as o
+	join dim_date_times as d
+	on o.date_uuid = d.date_uuid
+	join dim_products as p
+	on o.product_code = p.product_code
+	group by d.month
+	order by sales desc;
+2023-10-20 13:41:36.946 BST [64803] ERROR:  function round(double precision, integer) does not exist at character 17
+2023-10-20 13:41:36.946 BST [64803] HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2023-10-20 13:41:36.946 BST [64803] STATEMENT:  select d.month, round(sum(p.product_price*o.product_quantity),2) as sales
+	from orders_table as o
+	join dim_date_times as d
+	on o.date_uuid = d.date_uuid
+	join dim_products as p
+	on o.product_code = p.product_code
+	group by d.month
+	order by sales desc;
+2023-10-20 13:43:06.823 BST [64803] ERROR:  function round(double precision, integer) does not exist at character 17
+2023-10-20 13:43:06.823 BST [64803] HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2023-10-20 13:43:06.823 BST [64803] STATEMENT:  select d.month, round(sum(p.product_price*o.product_quantity),2) as sales
+	from orders_table as o
+	join dim_date_times as d
+	on o.date_uuid = d.date_uuid
+	join dim_products as p
+	on o.product_code = p.product_code
+	group by d.month
+	order by sales desc;
+	
+2023-10-20 13:43:36.787 BST [64803] ERROR:  function round(double precision, integer) does not exist at character 17
+2023-10-20 13:43:36.787 BST [64803] HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2023-10-20 13:43:36.787 BST [64803] STATEMENT:  SELECT d.month, ROUND(SUM(p.product_price * o.product_quantity), 2) AS sales
+	FROM orders_table AS o
+	JOIN dim_date_times AS d ON o.date_uuid = d.date_uuid
+	JOIN dim_products AS p ON o.product_code = p.product_code
+	GROUP BY d.month
+	ORDER BY sales DESC;
+2023-10-20 13:44:27.285 BST [64803] ERROR:  function sum(double precision, integer) does not exist at character 17
+2023-10-20 13:44:27.285 BST [64803] HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2023-10-20 13:44:27.285 BST [64803] STATEMENT:  select d.month, sum(round(p.product_price*o.product_quantity),2) as sales
+	from orders_table as o
+	join dim_date_times as d
+	on o.date_uuid = d.date_uuid
+	join dim_products as p
+	on o.product_code = p.product_code
+	group by d.month
+	order by sales desc;
+2023-10-20 13:44:39.142 BST [64803] ERROR:  function round(double precision, integer) does not exist at character 17
+2023-10-20 13:44:39.142 BST [64803] HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2023-10-20 13:44:39.142 BST [64803] STATEMENT:  SELECT d.month, ROUND(SUM(p.product_price * o.product_quantity), 2) AS sales
+	FROM orders_table AS o
+	JOIN dim_date_times AS d ON o.date_uuid = d.date_uuid
+	JOIN dim_products AS p ON o.product_code = p.product_code
+	GROUP BY d.month
+	ORDER BY sales DESC;
+2023-10-20 13:45:59.991 BST [64803] ERROR:  function sum(numeric, integer) does not exist at character 17
+2023-10-20 13:45:59.991 BST [64803] HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2023-10-20 13:45:59.991 BST [64803] STATEMENT:  select d.month, sum(round(p.product_price*o.product_quantity)::numeric,2) as sales
+	from orders_table as o
+	join dim_date_times as d
+	on o.date_uuid = d.date_uuid
+	join dim_products as p
+	on o.product_code = p.product_code
+	group by d.month
+	order by sales desc;
+2023-10-20 13:48:52.087 BST [64803] ERROR:  column "sales" does not exist at character 251
+2023-10-20 13:48:52.087 BST [64803] STATEMENT:  select round(sum(p.product_price*o.product_quantity)::numeric,2) as total_sales, d.month
+	from orders_table as o
+	join dim_date_times as d
+	on o.date_uuid = d.date_uuid
+	join dim_products as p
+	on o.product_code = p.product_code
+	group by d.month
+	order by sales desc
+	limit 6;
+2023-10-20 13:55:47.066 BST [64803] ERROR:  syntax error at or near "7" at character 135
+2023-10-20 13:55:47.066 BST [64803] STATEMENT:  SELECT locality, COUNT(store_code) AS total_no_stores
+	FROM dim_store_details
+	GROUP BY locality
+	ORDER BY total_no_stores DESC
+	LIMIT BY 7;
+2023-10-20 14:06:38.736 BST [10775] LOG:  checkpoint starting: time
+2023-10-20 14:06:39.595 BST [10775] LOG:  checkpoint complete: wrote 6 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.604 s, sync=0.108 s, total=0.859 s; sync files=6, longest=0.107 s, average=0.018 s; distance=3 kB, estimate=48960 kB
+2023-10-20 14:24:28.833 BST [64803] ERROR:  syntax error at end of input at character 273
+2023-10-20 14:24:28.833 BST [64803] STATEMENT:  SELECT ROUND(SUM(p.product_price * o.product_quantity)::numeric, 2) AS numbers_of_sales, 
+					SUM(o.product_quantity) AS product_quantity_count, p.still_available 
+	FROM orders_table AS o
+	JOIN dim_products AS p ON o.product_code = p.product_code
+	GROUP BY p.still_available,
+2023-10-20 14:34:33.117 BST [64803] ERROR:  constraint "store_code" of relation "dim_store_details" does not exist
+2023-10-20 14:34:33.117 BST [64803] STATEMENT:  ALTER TABLE dim_store_details
+	DROP CONSTRAINT store_code;
+2023-10-20 14:35:16.762 BST [64803] ERROR:  syntax error at or near "PRIMARY" at character 47
+2023-10-20 14:35:16.762 BST [64803] STATEMENT:  ALTER TABLE dim_store_details
+	DROP CONSTRAINT PRIMARY KEY;
+2023-10-20 14:35:43.228 BST [64803] ERROR:  syntax error at or near "PRIMARY" at character 47
+2023-10-20 14:35:43.228 BST [64803] STATEMENT:  ALTER TABLE dim_store_details
+	DROP CONSTRAINT PRIMARY KEY store_code;
+2023-10-20 14:36:32.697 BST [64803] ERROR:  cannot drop constraint dim_store_details_pkey on table dim_store_details because other objects depend on it
+2023-10-20 14:36:32.697 BST [64803] DETAIL:  constraint fk_store_code on table order_new depends on index dim_store_details_pkey
+2023-10-20 14:36:32.697 BST [64803] HINT:  Use DROP ... CASCADE to drop the dependent objects too.
+2023-10-20 14:36:32.697 BST [64803] STATEMENT:  ALTER TABLE dim_store_details
+	DROP CONSTRAINT dim_store_details_pkey;
+2023-10-20 14:36:39.027 BST [10775] LOG:  checkpoint starting: time
+2023-10-20 14:36:39.573 BST [10775] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.247 s, sync=0.143 s, total=0.547 s; sync files=3, longest=0.126 s, average=0.048 s; distance=5 kB, estimate=44064 kB
+2023-10-21 04:35:45.546 BST [10775] LOG:  checkpoint starting: time
+2023-10-21 04:35:46.329 BST [10775] LOG:  checkpoint complete: wrote 6 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.525 s, sync=0.078 s, total=0.783 s; sync files=5, longest=0.064 s, average=0.016 s; distance=30 kB, estimate=39661 kB
+2023-10-21 04:38:16.392 BST [124202] ERROR:  could not create unique index "dim_store_details_pkey"
+2023-10-21 04:38:16.392 BST [124202] DETAIL:  Key (country_code)=(GB) is duplicated.
+2023-10-21 04:38:16.392 BST [124202] STATEMENT:  ALTER TABLE dim_store_details
+	ADD PRIMARY KEY (country_code);
+2023-10-21 04:40:45.363 BST [10775] LOG:  checkpoint starting: time
+2023-10-21 04:40:48.777 BST [10775] LOG:  checkpoint complete: wrote 30 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=2.937 s, sync=0.279 s, total=3.414 s; sync files=24, longest=0.262 s, average=0.012 s; distance=161 kB, estimate=35711 kB
+2023-10-21 04:43:06.692 BST [124202] ERROR:  syntax error at or near "fk_address" at character 45
+2023-10-21 04:43:06.692 BST [124202] STATEMENT:  ALTER TABLE dim_users_table
+	ADD FOREIGN KEY fk_address
+	REFERENCES dim_store_details (address)
+2023-10-21 04:44:24.063 BST [124202] ERROR:  insert or update on table "dim_users_table" violates foreign key constraint "fk_address"
+2023-10-21 04:44:24.063 BST [124202] DETAIL:  Key (address)=(Zimmerstr. 1/0,59015 Gießen) is not present in table "dim_store_details".
+2023-10-21 04:44:24.063 BST [124202] STATEMENT:  ALTER TABLE dim_users_table
+	ADD CONSTRAINT fk_address
+	FOREIGN KEY (address)
+	REFERENCES dim_store_details (address);
+2023-10-21 04:45:45.860 BST [10775] LOG:  checkpoint starting: time
+2023-10-21 04:45:48.076 BST [10775] LOG:  checkpoint complete: wrote 19 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.841 s, sync=0.190 s, total=2.217 s; sync files=17, longest=0.171 s, average=0.012 s; distance=87 kB, estimate=32148 kB
+2023-10-21 04:50:45.174 BST [10775] LOG:  checkpoint starting: time
+2023-10-21 04:50:45.815 BST [10775] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.403 s, sync=0.058 s, total=0.641 s; sync files=4, longest=0.058 s, average=0.015 s; distance=6 kB, estimate=28934 kB
+2023-10-21 04:56:03.009 BST [124202] ERROR:  column "store_type" does not exist at character 8
+2023-10-21 04:56:03.009 BST [124202] HINT:  Perhaps you meant to reference the column "o.store_code".
+2023-10-21 04:56:03.009 BST [124202] STATEMENT:  SELECT store_type, ROUND(SUM(p.product_price * o.product_quantity)::numeric, 2) AS total_sales, 
+					SUM(o.product_quantity) AS product_quantity_count, p.still_available 
+	FROM orders_table AS o
+	JOIN dim_products AS p ON o.product_code = p.product_code
+	GROUP BY p.still_available;
+2023-10-21 05:03:39.640 BST [124202] ERROR:  relation "orders_new" does not exist at character 189
+2023-10-21 05:03:39.640 BST [124202] STATEMENT:  
+	SELECT ROUND(SUM(p.product_price * o.product_quantity)::numeric, 2) AS numbers_of_sales, 
+					SUM(o.product_quantity) AS product_quantity_count, o.store_code 
+	FROM dim_products AS p
+	JOIN orders_new AS o ON p.product_code = o.product_code
+	JOIN dim_store_details AS s ON o.store_code = s.store_code
+	GROUP BY o.store_code;
+2023-10-21 05:05:31.540 BST [124202] ERROR:  column o.store_type does not exist at character 146
+2023-10-21 05:05:31.540 BST [124202] HINT:  Perhaps you meant to reference the column "s.store_type".
+2023-10-21 05:05:31.540 BST [124202] STATEMENT:  SELECT ROUND(SUM(p.product_price * o.product_quantity)::numeric, 2) AS numbers_of_sales, 
+					SUM(o.product_quantity) AS product_quantity_count, o.store_type 
+	FROM dim_products AS p
+	JOIN order_new AS o ON p.product_code = o.product_code
+	JOIN dim_store_details AS s ON o.store_code = s.store_code
+	WHERE o.store_type == 'Web portal'
+	GROUP BY o.store_type;
+2023-10-21 05:05:52.698 BST [124202] ERROR:  operator does not exist: character varying == unknown at character 316
+2023-10-21 05:05:52.698 BST [124202] HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+2023-10-21 05:05:52.698 BST [124202] STATEMENT:  SELECT ROUND(SUM(p.product_price * o.product_quantity)::numeric, 2) AS numbers_of_sales, 
+					SUM(o.product_quantity) AS product_quantity_count, s.store_type 
+	FROM dim_products AS p
+	JOIN order_new AS o ON p.product_code = o.product_code
+	JOIN dim_store_details AS s ON o.store_code = s.store_code
+	WHERE s.store_type == 'Web portal'
+	GROUP BY s.store_type;
+2023-10-21 05:09:41.996 BST [124202] ERROR:  column "store_typer" does not exist at character 48
+2023-10-21 05:09:41.996 BST [124202] HINT:  Perhaps you meant to reference the column "dim_store_details.store_type".
+2023-10-21 05:09:41.996 BST [124202] STATEMENT:  SELECT store_type
+	from dim_store_details
+	WHERE store_typer == 'Web portal';
+2023-10-21 05:28:45.192 BST [124202] ERROR:  operator does not exist: character varying == unknown at character 50
+2023-10-21 05:28:45.192 BST [124202] HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+2023-10-21 05:28:45.192 BST [124202] STATEMENT:  SELECT *
+	from dim_store_details
+	WHERE store_code == 'WEB-1388012W';
+2023-10-21 05:40:46.782 BST [10775] LOG:  checkpoint starting: time
+2023-10-21 05:40:53.577 BST [10775] LOG:  checkpoint complete: wrote 64 buffers (0.4%); 0 WAL file(s) added, 0 removed, 0 recycled; write=6.391 s, sync=0.206 s, total=6.796 s; sync files=35, longest=0.151 s, average=0.006 s; distance=387 kB, estimate=26079 kB
+2023-10-21 05:45:46.677 BST [10775] LOG:  checkpoint starting: time
+2023-10-21 05:45:54.054 BST [10775] LOG:  checkpoint complete: wrote 72 buffers (0.4%); 0 WAL file(s) added, 0 removed, 0 recycled; write=7.153 s, sync=0.079 s, total=7.377 s; sync files=28, longest=0.038 s, average=0.003 s; distance=362 kB, estimate=23508 kB
+2023-10-21 06:00:46.354 BST [10775] LOG:  checkpoint starting: time
+2023-10-21 06:00:53.279 BST [10775] LOG:  checkpoint complete: wrote 67 buffers (0.4%); 0 WAL file(s) added, 0 removed, 0 recycled; write=6.651 s, sync=0.078 s, total=6.925 s; sync files=29, longest=0.030 s, average=0.003 s; distance=383 kB, estimate=21195 kB
+2023-10-21 06:15:46.578 BST [10775] LOG:  checkpoint starting: time
+2023-10-21 06:15:52.734 BST [10775] LOG:  checkpoint complete: wrote 58 buffers (0.4%); 0 WAL file(s) added, 0 removed, 0 recycled; write=5.749 s, sync=0.264 s, total=6.156 s; sync files=26, longest=0.196 s, average=0.011 s; distance=328 kB, estimate=19109 kB
+2023-10-21 06:16:52.466 BST [124202] ERROR:  column "longitude" cannot be cast automatically to type double precision
+2023-10-21 06:16:52.466 BST [124202] HINT:  You might need to specify "USING longitude::double precision".
+2023-10-21 06:16:52.466 BST [124202] STATEMENT:  -- Alter the data type of the 'longitude' column
+	ALTER TABLE dim_store_details
+	ALTER COLUMN longitude TYPE FLOAT;
+	
+	-- Alter the data type of the 'locality' column
+	ALTER TABLE dim_store_details
+	ALTER COLUMN locality TYPE VARCHAR(225);
+	
+	-- Alter the data type of the 'store_code' column
+	ALTER TABLE dim_store_details
+	ALTER COLUMN store_code TYPE VARCHAR(20);
+	
+	-- Alter the data type of the 'staff_numbers' column
+	ALTER TABLE dim_store_details
+	ALTER COLUMN staff_numbers TYPE SMALLINT;
+	
+	-- Alter the data type of the 'opening_date' column
+	ALTER TABLE dim_store_details
+	ALTER COLUMN opening_date TYPE DATE
+	USING opening_date::DATE;
+	
+	-- Alter the data type of the 'store_type' column
+	ALTER TABLE dim_store_details
+	ALTER COLUMN store_type TYPE VARCHAR(225);
+	
+	-- Alter the data type of the 'latitude' column
+	ALTER TABLE dim_store_details
+	ALTER COLUMN latitude TYPE FLOAT;
+	
+	-- Alter the data type of the 'country_code' column
+	ALTER TABLE dim_store_details
+	ALTER COLUMN country_code TYPE VARCHAR(20);
+	
+	-- Alter the data type of the 'continent' column
+	ALTER TABLE dim_store_details
+	ALTER COLUMN continent TYPE VARCHAR(225);
+	
+	-- Assign primary key to store_code
+	ALTER TABLE dim_store_details
+	ADD PRIMARY KEY (store_code);
+2023-10-21 06:17:48.064 BST [124202] ERROR:  invalid input syntax for type double precision: "N/A"
+2023-10-21 06:17:48.064 BST [124202] STATEMENT:  -- Alter the data type of the 'longitude' column
+	ALTER TABLE dim_store_details
+	ALTER COLUMN longitude TYPE FLOAT
+	USING longitude::double precision;
+	
+	-- Alter the data type of the 'locality' column
+	ALTER TABLE dim_store_details
+	ALTER COLUMN locality TYPE VARCHAR(225);
+	
+	-- Alter the data type of the 'store_code' column
+	ALTER TABLE dim_store_details
+	ALTER COLUMN store_code TYPE VARCHAR(20);
+	
+	-- Alter the data type of the 'staff_numbers' column
+	ALTER TABLE dim_store_details
+	ALTER COLUMN staff_numbers TYPE SMALLINT;
+	
+	-- Alter the data type of the 'opening_date' column
+	ALTER TABLE dim_store_details
+	ALTER COLUMN opening_date TYPE DATE
+	USING opening_date::DATE;
+	
+	-- Alter the data type of the 'store_type' column
+	ALTER TABLE dim_store_details
+	ALTER COLUMN store_type TYPE VARCHAR(225);
+	
+	-- Alter the data type of the 'latitude' column
+	ALTER TABLE dim_store_details
+	ALTER COLUMN latitude TYPE FLOAT
+	USING latitude::double precision;
+	
+	-- Alter the data type of the 'country_code' column
+	ALTER TABLE dim_store_details
+	ALTER COLUMN country_code TYPE VARCHAR(20);
+	
+	-- Alter the data type of the 'continent' column
+	ALTER TABLE dim_store_details
+	ALTER COLUMN continent TYPE VARCHAR(225);
+	
+	-- Assign primary key to store_code
+	ALTER TABLE dim_store_details
+	ADD PRIMARY KEY (store_code);
+2023-10-21 06:20:46.834 BST [10775] LOG:  checkpoint starting: time
+2023-10-21 06:20:49.545 BST [10775] LOG:  checkpoint complete: wrote 24 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=2.343 s, sync=0.221 s, total=2.712 s; sync files=20, longest=0.201 s, average=0.012 s; distance=137 kB, estimate=17211 kB
+2023-10-21 06:31:35.844 BST [124202] ERROR:  invalid input syntax for type double precision: "N/A"
+2023-10-21 06:31:35.844 BST [124202] STATEMENT:  ALTER TABLE dim_store_details
+	ALTER COLUMN longitude TYPE FLOAT
+	USING longitude::double precision;
+2023-10-21 06:35:46.842 BST [10775] LOG:  checkpoint starting: time
+2023-10-21 06:35:55.584 BST [10775] LOG:  checkpoint complete: wrote 85 buffers (0.5%); 0 WAL file(s) added, 0 removed, 0 recycled; write=8.462 s, sync=0.140 s, total=8.743 s; sync files=28, longest=0.117 s, average=0.005 s; distance=469 kB, estimate=15537 kB
+2023-10-21 06:40:46.658 BST [10775] LOG:  checkpoint starting: time
+2023-10-21 06:40:53.669 BST [10775] LOG:  checkpoint complete: wrote 68 buffers (0.4%); 0 WAL file(s) added, 0 removed, 0 recycled; write=6.755 s, sync=0.098 s, total=7.012 s; sync files=29, longest=0.075 s, average=0.004 s; distance=496 kB, estimate=14033 kB
+2023-10-21 06:45:46.674 BST [10775] LOG:  checkpoint starting: time
+2023-10-21 06:46:01.164 BST [10775] LOG:  checkpoint complete: wrote 142 buffers (0.9%); 0 WAL file(s) added, 0 removed, 0 recycled; write=14.199 s, sync=0.129 s, total=14.491 s; sync files=53, longest=0.058 s, average=0.003 s; distance=1624 kB, estimate=12792 kB
+2023-10-21 06:50:46.262 BST [10775] LOG:  checkpoint starting: time
+2023-10-21 06:50:48.200 BST [10775] LOG:  checkpoint complete: wrote 16 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.530 s, sync=0.237 s, total=1.938 s; sync files=15, longest=0.103 s, average=0.016 s; distance=77 kB, estimate=11521 kB
+2023-10-21 06:51:44.934 BST [124202] ERROR:  insert or update on table "orders_table" violates foreign key constraint "fk_card_number"
+2023-10-21 06:51:44.934 BST [124202] DETAIL:  Key (card_number)=(372498568017103) is not present in table "dim_card_details".
+2023-10-21 06:51:44.934 BST [124202] STATEMENT:  ALTER TABLE orders_table
+	ADD CONSTRAINT fk_card_number
+	FOREIGN KEY (card_number)
+	REFERENCES dim_card_details (card_number);
+2023-10-21 06:55:46.298 BST [10775] LOG:  checkpoint starting: time
+2023-10-21 06:55:48.280 BST [10775] LOG:  checkpoint complete: wrote 17 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.710 s, sync=0.105 s, total=1.983 s; sync files=16, longest=0.091 s, average=0.007 s; distance=72 kB, estimate=10376 kB
+2023-10-22 05:23:54.256 BST [10775] LOG:  checkpoint starting: time
+2023-10-22 05:24:12.774 BST [10775] LOG:  checkpoint complete: wrote 180 buffers (1.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=18.088 s, sync=0.156 s, total=18.519 s; sync files=31, longest=0.039 s, average=0.006 s; distance=1671 kB, estimate=9505 kB
+2023-10-22 05:25:46.971 BST [223904] ERROR:  insert or update on table "orders_table" violates foreign key constraint "fk_card_number"
+2023-10-22 05:25:46.971 BST [223904] DETAIL:  Key (card_number)=(4971858637664481) is not present in table "dim_card_details".
+2023-10-22 05:25:46.971 BST [223904] STATEMENT:  ALTER TABLE orders_table
+	ADD CONSTRAINT fk_card_number
+	FOREIGN KEY (card_number)
+	REFERENCES dim_card_details (card_number);
+2023-10-22 05:28:54.871 BST [10775] LOG:  checkpoint starting: time
+2023-10-22 05:29:13.164 BST [10775] LOG:  checkpoint complete: wrote 181 buffers (1.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=18.094 s, sync=0.070 s, total=18.293 s; sync files=38, longest=0.032 s, average=0.002 s; distance=5156 kB, estimate=9070 kB
+2023-10-22 05:38:54.360 BST [10775] LOG:  checkpoint starting: time
+2023-10-22 05:42:43.150 BST [10775] LOG:  checkpoint complete: wrote 2282 buffers (13.9%); 0 WAL file(s) added, 2 removed, 0 recycled; write=228.488 s, sync=0.079 s, total=228.791 s; sync files=34, longest=0.051 s, average=0.003 s; distance=21253 kB, estimate=21253 kB
+2023-10-22 05:43:54.232 BST [10775] LOG:  checkpoint starting: time
+2023-10-22 05:44:08.124 BST [223904] ERROR:  constraint "fk_product_code" for relation "order_new" already exists
+2023-10-22 05:44:08.124 BST [223904] STATEMENT:  -- Alter the data type of the 'date_uuid' column
+	ALTER TABLE orders_table
+	ALTER COLUMN date_uuid TYPE UUID
+	USING date_uuid::UUID;
+	
+	-- Alter the data type of the 'user_uuid' column
+	ALTER TABLE orders_table
+	ALTER COLUMN user_uuid TYPE UUID
+	USING user_uuid::UUID;
+	
+	-- Alter the data type of the 'card_number' column
+	ALTER TABLE orders_table
+	ALTER COLUMN card_number TYPE VARCHAR(20);
+	
+	-- Alter the data type of the 'store_code' column
+	ALTER TABLE orders_table
+	ALTER COLUMN store_code TYPE VARCHAR(20);
+	
+	-- Alter the data type of the 'product_code' column
+	ALTER TABLE orders_table
+	ALTER COLUMN product_code TYPE VARCHAR(20);
+	
+	-- Alter the data type of the 'product_quantity' column
+	ALTER TABLE orders_table
+	ALTER COLUMN product_quantity TYPE SMALLINT;
+	
+	
+	-- Add a foreign key constraint to the 'user_uuid' column in 'orders_table'
+	ALTER TABLE orders_table
+	ADD CONSTRAINT fk_user_uuid
+	FOREIGN KEY (user_uuid)
+	REFERENCES dim_users_table (user_uuid);
+	
+	-- Add a foreign key constraint to the 'store_code' column in 'orders_table'
+	ALTER TABLE orders_table
+	ADD CONSTRAINT fk_store_code
+	FOREIGN KEY (store_code)
+	REFERENCES dim_store_details (store_code);
+	
+	-- Add a foreign key constraint to the 'product_code' column in 'orders_table'
+	ALTER TABLE order_new
+	ADD CONSTRAINT fk_product_code
+	FOREIGN KEY (product_code)
+	REFERENCES dim_products (product_code);
+	
+	-- Add a foreign key constraint to the 'date_uuid' column in 'orders_table'
+	ALTER TABLE order_new
+	ADD CONSTRAINT fk_date_uuid
+	FOREIGN KEY (date_uuid)
+	REFERENCES dim_date_times (date_uuid);
+2023-10-22 05:44:41.755 BST [223904] ERROR:  constraint "fk_product_code" for relation "order_new" already exists
+2023-10-22 05:44:41.755 BST [223904] STATEMENT:  -- Alter the data type of the 'date_uuid' column
+	ALTER TABLE orders_table
+	ALTER COLUMN date_uuid TYPE UUID
+	USING date_uuid::UUID;
+	
+	-- Alter the data type of the 'user_uuid' column
+	ALTER TABLE orders_table
+	ALTER COLUMN user_uuid TYPE UUID
+	USING user_uuid::UUID;
+	
+	-- Alter the data type of the 'card_number' column
+	ALTER TABLE orders_table
+	ALTER COLUMN card_number TYPE VARCHAR(20);
+	
+	-- Alter the data type of the 'store_code' column
+	ALTER TABLE orders_table
+	ALTER COLUMN store_code TYPE VARCHAR(20);
+	
+	-- Alter the data type of the 'product_code' column
+	ALTER TABLE orders_table
+	ALTER COLUMN product_code TYPE VARCHAR(20);
+	
+	-- Alter the data type of the 'product_quantity' column
+	ALTER TABLE orders_table
+	ALTER COLUMN product_quantity TYPE SMALLINT;
+	
+	
+	-- Add a foreign key constraint to the 'user_uuid' column in 'orders_table'
+	ALTER TABLE orders_table
+	ADD CONSTRAINT fk_user_uuid
+	FOREIGN KEY (user_uuid)
+	REFERENCES dim_users_table (user_uuid);
+	
+	-- Add a foreign key constraint to the 'store_code' column in 'orders_table'
+	ALTER TABLE orders_table
+	ADD CONSTRAINT fk_store_code
+	FOREIGN KEY (store_code)
+	REFERENCES dim_store_details (store_code);
+	
+	-- Add a foreign key constraint to the 'product_code' column in 'orders_table'
+	ALTER TABLE order_new
+	ADD CONSTRAINT fk_product_code
+	FOREIGN KEY (product_code)
+	REFERENCES dim_products (product_code);
+	
+	-- Add a foreign key constraint to the 'date_uuid' column in 'orders_table'
+	ALTER TABLE order_new
+	ADD CONSTRAINT fk_date_uuid
+	FOREIGN KEY (date_uuid)
+	REFERENCES dim_date_times (date_uuid);
+2023-10-22 05:47:03.381 BST [10775] LOG:  checkpoint complete: wrote 360 buffers (2.2%); 0 WAL file(s) added, 1 removed, 0 recycled; write=188.625 s, sync=0.004 s, total=189.150 s; sync files=36, longest=0.001 s, average=0.001 s; distance=21282 kB, estimate=21282 kB
+2023-10-22 05:49:34.406 BST [223904] ERROR:  operator does not exist: text = uuid at character 176
+2023-10-22 05:49:34.406 BST [223904] HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+2023-10-22 05:49:34.406 BST [223904] STATEMENT:  --Quering data no 3
+	SELECT ROUND(SUM(p.product_price * o.product_quantity)::numeric, 2) AS total_sales, d.month
+	FROM orders_table AS o
+	JOIN dim_date_times AS d ON o.date_uuid = d.date_uuid
+	JOIN dim_products AS p ON o.product_code = p.product_code
+	GROUP BY d.month
+	ORDER BY total_sales DESC
+	LIMIT 6;
+2023-10-22 05:52:26.053 BST [223904] ERROR:  operator does not exist: text == uuid at character 176
+2023-10-22 05:52:26.053 BST [223904] HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+2023-10-22 05:52:26.053 BST [223904] STATEMENT:  --Quering data no 3
+	SELECT ROUND(SUM(p.product_price * o.product_quantity)::numeric, 2) AS total_sales, d.month
+	FROM orders_table AS o
+	JOIN dim_date_times AS d ON o.date_uuid == d.date_uuid
+	JOIN dim_products AS p ON o.product_code == p.product_code
+	GROUP BY d.month
+	ORDER BY total_sales DESC
+	LIMIT 6;
+2023-10-22 05:52:45.550 BST [223904] ERROR:  operator does not exist: text = uuid at character 176
+2023-10-22 05:52:45.550 BST [223904] HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+2023-10-22 05:52:45.550 BST [223904] STATEMENT:  --Quering data no 3
+	SELECT ROUND(SUM(p.product_price * o.product_quantity)::numeric, 2) AS total_sales, d.month
+	FROM orders_table AS o
+	JOIN dim_date_times AS d ON o.date_uuid = d.date_uuid
+	JOIN dim_products AS p ON o.product_code = p.product_code
+	GROUP BY d.month
+	ORDER BY total_sales DESC
+	LIMIT 6;
+2023-10-22 05:53:51.641 BST [223904] ERROR:  syntax error at or near "elect" at character 1
+2023-10-22 05:53:51.641 BST [223904] STATEMENT:  elect * from orders_table
+2023-10-22 05:53:54.571 BST [10775] LOG:  checkpoint starting: time
+2023-10-22 05:54:01.650 BST [10775] LOG:  checkpoint complete: wrote 62 buffers (0.4%); 0 WAL file(s) added, 0 removed, 11 recycled; write=6.160 s, sync=0.248 s, total=7.079 s; sync files=34, longest=0.185 s, average=0.008 s; distance=176756 kB, estimate=176756 kB
+2023-10-22 05:55:53.938 BST [223904] ERROR:  constraint "fk_date_uuid" for relation "order_new" already exists
+2023-10-22 05:55:53.938 BST [223904] STATEMENT:  -- Add a foreign key constraint to the 'date_uuid' column in 'orders_table'
+	ALTER TABLE order_new
+	ADD CONSTRAINT fk_date_uuid
+	FOREIGN KEY (date_uuid)
+	REFERENCES dim_date_times (date_uuid);
+	
+2023-10-22 05:56:18.242 BST [223904] ERROR:  constraint "fk_product_code" for relation "order_new" already exists
+2023-10-22 05:56:18.242 BST [223904] STATEMENT:  -- Add a foreign key constraint to the 'product_code' column in 'orders_table'
+	ALTER TABLE order_new
+	ADD CONSTRAINT fk_product_code
+	FOREIGN KEY (product_code)
+	REFERENCES dim_products (product_code);
+	
+2023-10-22 05:58:54.457 BST [10775] LOG:  checkpoint starting: time
+2023-10-22 06:01:42.338 BST [10775] LOG:  checkpoint complete: wrote 1674 buffers (10.2%); 0 WAL file(s) added, 0 removed, 6 recycled; write=167.535 s, sync=0.049 s, total=167.882 s; sync files=43, longest=0.028 s, average=0.002 s; distance=99243 kB, estimate=169005 kB
+2023-10-22 06:03:16.910 BST [223904] ERROR:  syntax error at or near ";" at character 277
+2023-10-22 06:03:16.910 BST [223904] STATEMENT:  SELECT ROUND(SUM(p.product_price * o.product_quantity)::numeric, 2) AS total_sales, d.month
+	FROM orders_table AS o
+	JOIN dim_store_details AS s ON o.store_code = s.store_code
+	GROUP BY (SELECT store_type AS location 
+			  FROM dim_store_details
+			 WHERE store_type = 'Web Portal';)
+2023-10-22 06:03:27.201 BST [223904] ERROR:  missing FROM-clause entry for table "p" at character 18
+2023-10-22 06:03:27.201 BST [223904] STATEMENT:  SELECT ROUND(SUM(p.product_price * o.product_quantity)::numeric, 2) AS total_sales, d.month
+	FROM orders_table AS o
+	JOIN dim_store_details AS s ON o.store_code = s.store_code
+	GROUP BY (SELECT store_type AS location 
+			  FROM dim_store_details
+			 WHERE store_type = 'Web Portal')
+2023-10-22 06:08:50.130 BST [223904] ERROR:  column "s.store_type" must appear in the GROUP BY clause or be used in an aggregate function at character 105
+2023-10-22 06:08:50.130 BST [223904] STATEMENT:  SELECT COUNT(p.product_price) as numbers_of_sales, 
+		SUM(o.product_quantity) AS product_quantity_count, s.store_type as location
+	FROM dim_products AS p
+	JOIN orders_table AS o ON p.product_code = o.product_code
+	JOIN dim_store_details AS s ON o.store_code = s.store_code
+	GROUP BY (SELECT store_type AS location 
+			  FROM dim_store_details
+			 WHERE store_type = 'Web Portal')
+2023-10-22 06:09:39.848 BST [223904] ERROR:  column "s.store_type" must appear in the GROUP BY clause or be used in an aggregate function at character 125
+2023-10-22 06:09:39.848 BST [223904] STATEMENT:  --Quering data no 3
+	SELECT COUNT(p.product_price) as numbers_of_sales, 
+		SUM(o.product_quantity) AS product_quantity_count, s.store_type as location
+	FROM dim_products AS p
+	JOIN orders_table AS o ON p.product_code = o.product_code
+	JOIN dim_store_details AS s ON o.store_code = s.store_code
+	GROUP BY (SELECT store_type 
+			  FROM dim_store_details
+			 WHERE store_type = 'Web Portal')
+2023-10-22 06:10:01.842 BST [223904] ERROR:  column "s.store_type" must appear in the GROUP BY clause or be used in an aggregate function at character 125
+2023-10-22 06:10:01.842 BST [223904] STATEMENT:  --Quering data no 3
+	SELECT COUNT(p.product_price) as numbers_of_sales, 
+		SUM(o.product_quantity) AS product_quantity_count, s.store_type as location
+	FROM dim_products AS p
+	JOIN orders_table AS o ON p.product_code = o.product_code
+	JOIN dim_store_details AS s ON o.store_code = s.store_code
+	GROUP BY (SELECT s.store_type 
+			  FROM dim_store_details
+			 WHERE s.store_type = 'Web Portal')
+2023-10-22 06:33:03.255 BST [223904] ERROR:  syntax error at or near "SELECT" at character 390
+2023-10-22 06:33:03.255 BST [223904] STATEMENT:  --Quering data no 3
+	SELECT COUNT(p.product_price) as numbers_of_sales, 
+		SUM(o.product_quantity) AS product_quantity_count, s.store_type as location
+	FROM dim_products AS p
+	JOIN orders_table AS o ON p.product_code = o.product_code
+	JOIN dim_store_details AS s ON o.store_code = s.store_code
+	GROUP BY (SELECT s.store_type 
+			  FROM dim_store_details
+			 WHERE s.store_type = 'Web Portal')
+			 
+	SELECT
+	    CASE
+	        WHEN s.store_type = 'Web Portal' THEN 'Web Portal'
+	        ELSE s.store_type <>'Web Portal' as 'Offline'
+	    END AS location,
+	    COUNT(p.product_price) as numbers_of_sales, SUM(o.product_quantity) AS product_quantity_count
+	FROM dim_store_details AS s
+	LEFT JOIN orders_table AS o ON s.store_code = o.store_code
+	JOIN dim_products AS p ON o.product_code = p.product_code
+	GROUP BY
+	    CASE
+	        WHEN s.store_type = 'Web Portal' THEN 'Web Portal'
+	        ELSE s.store_type <>'Web Portal' as 'Offline'
+	    END;
+	
+2023-10-22 06:33:14.781 BST [223904] ERROR:  syntax error at or near "as" at character 117
+2023-10-22 06:33:14.781 BST [223904] STATEMENT:  SELECT
+	    CASE
+	        WHEN s.store_type = 'Web Portal' THEN 'Web Portal'
+	        ELSE s.store_type <>'Web Portal' as 'Offline'
+	    END AS location,
+	    COUNT(p.product_price) as numbers_of_sales, SUM(o.product_quantity) AS product_quantity_count
+	FROM dim_store_details AS s
+	LEFT JOIN orders_table AS o ON s.store_code = o.store_code
+	JOIN dim_products AS p ON o.product_code = p.product_code
+	GROUP BY
+	    CASE
+	        WHEN s.store_type = 'Web Portal' THEN 'Web Portal'
+	        ELSE s.store_type <>'Web Portal' as 'Offline'
+	    END;
+2023-10-22 06:36:37.921 BST [223904] ERROR:  syntax error at or near "COUNT" at character 123
+2023-10-22 06:36:37.921 BST [223904] STATEMENT:  --Quering data no 3
+	SELECT
+	    CASE
+	        WHEN s.store_type = 'Web Portal' THEN 'Web Portal'
+	        ELSE 'Offline'
+	    COUNT(p.product_price) AS numbers_of_sales,
+	    SUM(o.product_quantity) AS product_quantity_count
+		END AS location,
+	FROM dim_store_details AS s
+	LEFT JOIN orders_table AS o ON s.store_code = o.store_code
+	JOIN dim_products AS p ON o.product_code = p.product_code
+	GROUP BY
+	    CASE
+	        WHEN s.store_type = 'Web Portal' THEN 'Web Portal'
+	        ELSE 'Offline'
+	    END;
+	
+			 
+	
+	
+2023-10-22 06:47:41.765 BST [223904] ERROR:  syntax error at or near "WHERE" at character 129
+2023-10-22 06:47:41.765 BST [223904] STATEMENT:  SELECT 
+	    COUNT(p.product_price) AS numbers_of_sales,
+	    SUM(o.product_quantity) AS product_quantity_count,
+	    CASE
+	        WHERE s.store_type = 'Web Portal' THEN 'web portal'
+	        ELSE 'Offline'
+	    END AS location
+	FROM dim_store_details AS s
+	JOIN orders_table AS o ON s.store_code = o.store_code
+	JOIN dim_product AS p ON o.product_code = p.product_code
+	GROUP BY
+	    CASE
+	        WHERE s.store_type = 'Web Portal' THEN 'web portal'
+	        ELSE 'Offline'
+	    END;
+2023-10-22 06:48:42.543 BST [223904] ERROR:  relation "dim_product" does not exist at character 310
+2023-10-22 06:48:42.543 BST [223904] STATEMENT:  SELECT 
+	    COUNT(p.product_price) AS numbers_of_sales,
+	    SUM(o.product_quantity) AS product_quantity_count,
+	    CASE
+	        WHEN s.store_type = 'Web Portal' THEN 'web portal'
+	        ELSE 'Offline'
+	    END AS location
+	FROM dim_store_details AS s
+	JOIN orders_table AS o ON s.store_code = o.store_code
+	JOIN dim_product AS p ON o.product_code = p.product_code
+	GROUP BY
+	    CASE
+	        WHEN s.store_type = 'Web Portal' THEN 'web portal'
+	        ELSE 'Offline'
+	    END;
+2023-10-22 07:10:19.269 BST [223904] ERROR:  syntax error at or near "ROUND" at character 345
+2023-10-22 07:10:19.269 BST [223904] STATEMENT:  --Quering data no 3
+	SELECT
+	    CASE
+	        WHEN s.store_type = 'Local' THEN 'Local'
+			WHEN s.store_type = 'Web Portal' THEN 'Web Portal'
+			WHEN s.store_type = 'Super Store' THEN 'Super Store'
+			WHEN s.store_type = 'Mall Kiosk' THEN 'Mall Kiosk'
+			WHEN s.store_type = 'Web Portal' THEN 'Web Portal'
+	        ELSE 'Outlet'
+		END AS store_type
+	    ROUND(SUM(o.product_quantity*p.product_price),2) AS total_sales,
+		ROUND((SUM(o.product_quantity*p.product_price)/SUM(SUM(o.product_quantity*p.product_price))OVERALL())*100,2) AS percentage_total(%),
+	FROM dim_store_details AS s
+	JOIN orders_table AS o ON s.store_code = o.store_code
+	JOIN dim_products AS p ON o.product_code = p.product_code
+	GROUP BY store_type;
+2023-10-22 07:11:30.513 BST [223904] ERROR:  syntax error at or near "ROUND" at character 342
+2023-10-22 07:11:30.513 BST [223904] STATEMENT:  --Quering data no 3
+	SELECT
+	    CASE
+	        WHEN s.store_type = 'Local' THEN 'Local'
+			WHEN s.store_type = 'Web Portal' THEN 'Web Portal'
+			WHEN s.store_type = 'Super Store' THEN 'Super Store'
+			WHEN s.store_type = 'Mall Kiosk' THEN 'Mall Kiosk'
+			WHEN s.store_type = 'Web Portal' THEN 'Web Portal'
+	        ELSE 'Outlet'
+		END AS store_type
+		ROUND(SUM(o.product_quantity*p.product_price),2) AS total_sales,
+		ROUND((SUM(o.product_quantity*p.product_price)/SUM(SUM(o.product_quantity*p.product_price))OVERALL())*100,2) AS percentage_total(%),
+	FROM dim_store_details AS s
+	JOIN orders_table AS o ON s.store_code = o.store_code
+	JOIN dim_products AS p ON o.product_code = p.product_code
+	GROUP BY store_type;
+2023-10-22 07:12:02.093 BST [223904] ERROR:  syntax error at or near "OVERALL" at character 500
+2023-10-22 07:12:02.093 BST [223904] STATEMENT:  --Quering data no 3
+	SELECT
+	    CASE
+	        WHEN s.store_type = 'Local' THEN 'Local'
+			WHEN s.store_type = 'Web Portal' THEN 'Web Portal'
+			WHEN s.store_type = 'Super Store' THEN 'Super Store'
+			WHEN s.store_type = 'Mall Kiosk' THEN 'Mall Kiosk'
+			WHEN s.store_type = 'Web Portal' THEN 'Web Portal'
+	        ELSE 'Outlet'
+		END AS store_type,
+		ROUND(SUM(o.product_quantity*p.product_price),2) AS total_sales,
+		ROUND((SUM(o.product_quantity*p.product_price)/SUM(SUM(o.product_quantity*p.product_price))OVERALL())*100,2) AS percentage_total(%),
+	FROM dim_store_details AS s
+	JOIN orders_table AS o ON s.store_code = o.store_code
+	JOIN dim_products AS p ON o.product_code = p.product_code
+	GROUP BY store_type;
+2023-10-22 07:12:35.084 BST [223904] ERROR:  syntax error at or near "(" at character 535
+2023-10-22 07:12:35.084 BST [223904] STATEMENT:  --Quering data no 3
+	SELECT
+	    CASE
+	        WHEN s.store_type = 'Local' THEN 'Local'
+			WHEN s.store_type = 'Web Portal' THEN 'Web Portal'
+			WHEN s.store_type = 'Super Store' THEN 'Super Store'
+			WHEN s.store_type = 'Mall Kiosk' THEN 'Mall Kiosk'
+			WHEN s.store_type = 'Web Portal' THEN 'Web Portal'
+	        ELSE 'Outlet'
+		END AS store_type,
+		ROUND(SUM(o.product_quantity*p.product_price),2) AS total_sales,
+		ROUND((SUM(o.product_quantity*p.product_price)/SUM(SUM(o.product_quantity*p.product_price)) OVER())*100,2) AS percentage_total(%),
+	FROM dim_store_details AS s
+	JOIN orders_table AS o ON s.store_code = o.store_code
+	JOIN dim_products AS p ON o.product_code = p.product_code
+	GROUP BY store_type;
+2023-10-22 07:13:20.477 BST [223904] ERROR:  syntax error at or near "'percentage_total(%)'" at character 519
+2023-10-22 07:13:20.477 BST [223904] STATEMENT:  --Quering data no 3
+	SELECT
+	    CASE
+	        WHEN s.store_type = 'Local' THEN 'Local'
+			WHEN s.store_type = 'Web Portal' THEN 'Web Portal'
+			WHEN s.store_type = 'Super Store' THEN 'Super Store'
+			WHEN s.store_type = 'Mall Kiosk' THEN 'Mall Kiosk'
+			WHEN s.store_type = 'Web Portal' THEN 'Web Portal'
+	        ELSE 'Outlet'
+		END AS store_type,
+		ROUND(SUM(o.product_quantity*p.product_price),2) AS total_sales,
+		ROUND((SUM(o.product_quantity*p.product_price)/SUM(SUM(o.product_quantity*p.product_price)) OVER())*100,2) AS 'percentage_total(%)',
+	FROM dim_store_details AS s
+	JOIN orders_table AS o ON s.store_code = o.store_code
+	JOIN dim_products AS p ON o.product_code = p.product_code
+	GROUP BY store_type;
+2023-10-22 07:13:43.778 BST [223904] ERROR:  syntax error at or near "FROM" at character 537
+2023-10-22 07:13:43.778 BST [223904] STATEMENT:  --Quering data no 3
+	SELECT
+	    CASE
+	        WHEN s.store_type = 'Local' THEN 'Local'
+			WHEN s.store_type = 'Web Portal' THEN 'Web Portal'
+			WHEN s.store_type = 'Super Store' THEN 'Super Store'
+			WHEN s.store_type = 'Mall Kiosk' THEN 'Mall Kiosk'
+			WHEN s.store_type = 'Web Portal' THEN 'Web Portal'
+	        ELSE 'Outlet'
+		END AS store_type,
+		ROUND(SUM(o.product_quantity*p.product_price),2) AS total_sales,
+		ROUND((SUM(o.product_quantity*p.product_price)/SUM(SUM(o.product_quantity*p.product_price)) OVER())*100,2) AS percentage_total,
+	FROM dim_store_details AS s
+	JOIN orders_table AS o ON s.store_code = o.store_code
+	JOIN dim_products AS p ON o.product_code = p.product_code
+	GROUP BY store_type;
+2023-10-22 07:14:06.940 BST [223904] ERROR:  function round(double precision, integer) does not exist at character 343
+2023-10-22 07:14:06.940 BST [223904] HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2023-10-22 07:14:06.940 BST [223904] STATEMENT:  --Quering data no 3
+	SELECT
+	    CASE
+	        WHEN s.store_type = 'Local' THEN 'Local'
+			WHEN s.store_type = 'Web Portal' THEN 'Web Portal'
+			WHEN s.store_type = 'Super Store' THEN 'Super Store'
+			WHEN s.store_type = 'Mall Kiosk' THEN 'Mall Kiosk'
+			WHEN s.store_type = 'Web Portal' THEN 'Web Portal'
+	        ELSE 'Outlet'
+		END AS store_type,
+		ROUND(SUM(o.product_quantity*p.product_price),2) AS total_sales,
+		ROUND((SUM(o.product_quantity*p.product_price)/SUM(SUM(o.product_quantity*p.product_price)) OVER())*100,2) AS percentage_total
+	FROM dim_store_details AS s
+	JOIN orders_table AS o ON s.store_code = o.store_code
+	JOIN dim_products AS p ON o.product_code = p.product_code
+	GROUP BY store_type;
+2023-10-22 07:15:27.197 BST [223904] ERROR:  function round(double precision, integer) does not exist at character 1038
+2023-10-22 07:15:27.197 BST [223904] HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2023-10-22 07:15:27.197 BST [223904] STATEMENT:  -- --Quering data no 3
+	-- SELECT
+	--     CASE
+	--         WHEN s.store_type = 'Local' THEN 'Local'
+	-- 		WHEN s.store_type = 'Web Portal' THEN 'Web Portal'
+	-- 		WHEN s.store_type = 'Super Store' THEN 'Super Store'
+	-- 		WHEN s.store_type = 'Mall Kiosk' THEN 'Mall Kiosk'
+	-- 		WHEN s.store_type = 'Web Portal' THEN 'Web Portal'
+	--         ELSE 'Outlet'
+	-- 	END AS store_type,
+	-- 	ROUND(SUM(o.product_quantity*p.product_price),2) AS total_sales,
+	-- 	ROUND((SUM(o.product_quantity*p.product_price)/SUM(SUM(o.product_quantity*p.product_price)) OVER())*100,2) AS percentage_total
+	-- FROM dim_store_details AS s
+	-- JOIN orders_table AS o ON s.store_code = o.store_code
+	-- JOIN dim_products AS p ON o.product_code = p.product_code
+	-- GROUP BY store_type;
+	SELECT
+	    CASE
+	        WHEN s.store_type = 'Local' THEN 'Local'
+	        WHEN s.store_type = 'Web Portal' THEN 'Web Portal'
+	        WHEN s.store_type = 'Super Store' THEN 'Super Store'
+	        WHEN s.store_type = 'Mall Kiosk' THEN 'Mall Kiosk'
+	        ELSE 'Outlet'
+	    END AS store_type,
+	    ROUND(SUM(o.product_quantity * p.product_price), 2) AS total_sales,
+	    ROUND((SUM(o.product_quantity * p.product_price) / SUM(SUM(o.product_quantity * p.product_price)) OVER ()) * 100, 2) AS percentage_total
+	FROM dim_store_details AS s
+	JOIN orders_table AS o ON s.store_code = o.store_code
+	JOIN dim_products AS p ON o.product_code = p.product_code
+	GROUP BY store_type
+	
+2023-10-22 07:20:15.205 BST [223904] ERROR:  syntax error at or near "(" at character 1300
+2023-10-22 07:20:15.205 BST [223904] STATEMENT:  -- --Quering data no 3
+	-- SELECT
+	--     CASE
+	--         WHEN s.store_type = 'Local' THEN 'Local'
+	-- 		WHEN s.store_type = 'Web Portal' THEN 'Web Portal'
+	-- 		WHEN s.store_type = 'Super Store' THEN 'Super Store'
+	-- 		WHEN s.store_type = 'Mall Kiosk' THEN 'Mall Kiosk'
+	-- 		WHEN s.store_type = 'Web Portal' THEN 'Web Portal'
+	--         ELSE 'Outlet'
+	-- 	END AS store_type,
+	-- 	ROUND(SUM(o.product_quantity*p.product_price),2) AS total_sales,
+	-- 	ROUND((SUM(o.product_quantity*p.product_price)/SUM(SUM(o.product_quantity*p.product_price)) OVER())*100,2) AS percentage_total
+	-- FROM dim_store_details AS s
+	-- JOIN orders_table AS o ON s.store_code = o.store_code
+	-- JOIN dim_products AS p ON o.product_code = p.product_code
+	-- GROUP BY store_type;
+	SELECT
+	    CASE
+	        WHEN s.store_type = 'Local' THEN 'Local'
+	        WHEN s.store_type = 'Web Portal' THEN 'Web Portal'
+	        WHEN s.store_type = 'Super Store' THEN 'Super Store'
+	        WHEN s.store_type = 'Mall Kiosk' THEN 'Mall Kiosk'
+	        ELSE 'Outlet'
+	    END AS store_type,
+	    ROUND(SUM(o.product_quantity::numeric * p.product_price::numeric), 2) AS total_sales,
+	    ROUND((SUM(o.product_quantity::numeric * p.product_price::numeric) / SUM(SUM(o.product_quantity::numeric * p.product_price::numeric)) OVER ()) * 100, 2) AS percentage_total(%)
+	FROM dim_store_details AS s
+	JOIN orders_table AS o ON s.store_code = o.store_code
+	JOIN dim_products AS p ON o.product_code = p.product_code
+	GROUP BY store_type
+	ORDER BY percentage_total DESC;
+	
+2023-10-22 07:30:04.304 BST [223904] ERROR:  function round(double precision, integer) does not exist at character 8
+2023-10-22 07:30:04.304 BST [223904] HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2023-10-22 07:30:04.304 BST [223904] STATEMENT:  SELECT ROUND(SUM(p.product_price*o.product_quantity),2) AS total_sales, d.year AS Year, d.month AS Month
+	FROM dim_date_times AS d
+	JOIN orders_table AS o ON d.date_uuid = o.date_uuid
+	JOIN dim_products AS p ON o.product_code = p.product_code
+	GROUP BY d.year, d.month;
+	
+2023-10-22 07:38:16.730 BST [223904] ERROR:  column "staff_number" does not exist at character 12
+2023-10-22 07:38:16.730 BST [223904] HINT:  Perhaps you meant to reference the column "dim_store_details.staff_numbers".
+2023-10-22 07:38:16.730 BST [223904] STATEMENT:  SELECT SUM(staff_number) AS total_staff_numbers, country_code
+	FROM dim_store_details
+	GROUP BY country_code
+	ORDER BY total_staff_numbers DESC;
+	
+2023-10-22 07:42:10.020 BST [223904] ERROR:  column "dim_store_details.country_code" must appear in the GROUP BY clause or be used in an aggregate function at character 63
+2023-10-22 07:42:10.020 BST [223904] STATEMENT:  SELECT SUM(staff_numbers) AS total_staff_numbers, store_type, country_code
+	FROM dim_store_details
+	WHERE country_code = 'DE'
+	GROUP BY store_type
+	ORDER BY total_staff_numbers DESC;
+	
+2023-10-22 07:46:06.811 BST [223904] ERROR:  function round(double precision, integer) does not exist at character 8
+2023-10-22 07:46:06.811 BST [223904] HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2023-10-22 07:46:06.811 BST [223904] STATEMENT:  SELECT ROUND(SUM(p.product_price*o.product_quantity),2) AS total_sales, store_type, country_code
+	FROM dim_store_details AS s
+	JOIN orders_table AS o ON s.store_code = o.store_code
+	JOIN dim_products AS p ON o.product_code = p.product_code
+	WHERE country_code = 'DE'
+	GROUP BY store_type, country_code
+	ORDER BY total_staff_numbers DESC;
+	
+2023-10-22 07:46:35.982 BST [223904] ERROR:  column "total_staff_numbers" does not exist at character 325
+2023-10-22 07:46:35.982 BST [223904] STATEMENT:  SELECT ROUND(SUM(p.product_price::numeric*o.product_quantity::numeric),2) AS total_sales, store_type, country_code
+	FROM dim_store_details AS s
+	JOIN orders_table AS o ON s.store_code = o.store_code
+	JOIN dim_products AS p ON o.product_code = p.product_code
+	WHERE country_code = 'DE'
+	GROUP BY store_type, country_code
+	ORDER BY total_staff_numbers DESC;
+	
+2023-10-22 08:01:00.935 BST [223904] ERROR:  column "subquery.datetime" must appear in the GROUP BY clause or be used in an aggregate function at character 30
+2023-10-22 08:01:00.935 BST [223904] STATEMENT:  SELECT
+	    EXTRACT(YEAR FROM datetime) AS sale_year,
+	    AVG(time_diff) AS average_time_between_sales
+	FROM (
+	    SELECT
+	        datetime,
+	        EXTRACT(YEAR FROM datetime) AS sale_year,
+	        LAG(datetime) OVER (ORDER BY datetime) AS previous_sale_date,
+	        DATE_PART('day', datetime - LAG(datetime) OVER (ORDER BY datetime)) AS time_diff
+	    FROM dim_date_times
+	) subquery
+	GROUP BY sale_year
+	ORDER BY sale_year;
+2023-10-22 08:03:30.217 BST [223904] ERROR:  unit "timestamp" not recognized for type interval
+2023-10-22 08:03:30.217 BST [223904] STATEMENT:  SELECT
+	    EXTRACT(YEAR FROM datetime) AS sale_year,
+	    AVG(time_diff) AS actual_time_taken
+	FROM (
+	    SELECT
+	        datetime,
+	        EXTRACT(YEAR FROM datetime) AS sale_year,
+	        LAG(datetime) OVER (ORDER BY datetime) AS previous_sale_date,
+	        DATE_PART('timestamp', datetime - LAG(datetime) OVER (ORDER BY datetime)) AS time_diff
+	    FROM dim_date_times
+	) subquery
+	GROUP BY sale_year, datetime
+	ORDER BY sale_year;
+	
+	-- select * from dim_date_times
+2023-10-22 08:06:45.252 BST [223904] ERROR:  operator does not exist: text - text at character 204
+2023-10-22 08:06:45.252 BST [223904] HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+2023-10-22 08:06:45.252 BST [223904] STATEMENT:  SELECT year,
+	    AVG(time_diff) AS actual_time_taken
+	FROM (
+	    SELECT
+	        timestamp,
+	        LAG(timestamp) OVER (ORDER BY timestamp) AS previous_sale_date,
+	        DATE_PART('timestamp', timestamp - LAG(timestamp) OVER (ORDER BY timestamp)) AS time_diff
+	    FROM dim_date_times
+	) subquery
+	GROUP BY sale_year, timestamp
+	ORDER BY sale_year;
+	
+	-- select * from dim_date_times
+2023-10-22 08:19:24.786 BST [223904] ERROR:  syntax error at or near "Calculate" at character 2
+2023-10-22 08:19:24.786 BST [223904] STATEMENT:   Calculate the average time difference in hours, minutes, and seconds between sales, grouped by year
+	SELECT
+	    EXTRACT(YEAR FROM datetime) AS sale_year,
+	    AVG(EXTRACT(EPOCH FROM time_diff)) / 3600 AS avg_hours,
+	    AVG(EXTRACT(EPOCH FROM time_diff)) / 60 AS avg_minutes,
+	    AVG(EXTRACT(EPOCH FROM time_diff)) AS avg_seconds
+	FROM (
+	    SELECT
+	        datetime,
+	        datetime - LAG(datetime) OVER (ORDER BY datetime) AS time_diff
+	    FROM dim_date_times
+	) subquery
+	GROUP BY sale_year
+	ORDER BY avg_hours DESC;
+2023-10-22 08:41:56.187 BST [223904] ERROR:  column "subquery.datetime" must appear in the GROUP BY clause or be used in an aggregate function at character 133
+2023-10-22 08:41:56.187 BST [223904] STATEMENT:  -- Calculate the average time difference in hours, minutes, and seconds between sales, grouped by year
+	SELECT
+	    EXTRACT(YEAR FROM datetime) AS year,
+	    JSON_BUILD_OBJECT(
+	        'hours', AVG(EXTRACT(HOUR FROM time_diff)),
+	        'minutes', AVG(EXTRACT(MINUTE FROM time_diff)),
+	        'seconds', AVG(EXTRACT(SECOND FROM time_diff)),
+	        'milliseconds', AVG(EXTRACT(MILLISECONDS FROM time_diff))
+	    ) AS actual_time_taken
+	FROM (
+	    SELECT
+	        datetime,
+	        EXTRACT(YEAR FROM datetime) AS year,
+	        datetime - LAG(datetime) OVER (ORDER BY datetime) AS time_diff
+	    FROM dim_date_times
+	) subquery
+	GROUP BY year
+	ORDER BY year;
+	
+	
+	-- select * from dim_date_times
+2023-10-22 08:44:00.848 BST [223904] ERROR:  column "subquery.datetime" must appear in the GROUP BY clause or be used in an aggregate function at character 133
+2023-10-22 08:44:00.848 BST [223904] STATEMENT:  -- Calculate the average time difference in hours, minutes, and seconds between sales, grouped by year
+	SELECT
+	    EXTRACT(YEAR FROM datetime) AS year,
+	    JSON_BUILD_OBJECT(
+	        'hours', AVG(EXTRACT(HOUR FROM time_diff)),
+	        'minutes', AVG(EXTRACT(MINUTE FROM time_diff)),
+	        'seconds', AVG(EXTRACT(SECOND FROM time_diff)),
+	        'milliseconds', AVG(EXTRACT(MICROSECONDS FROM time_diff) / 1000)
+	    ) AS actual_time_taken
+	FROM (
+	    SELECT
+	        datetime,
+	        EXTRACT(YEAR FROM datetime) AS year,
+	        datetime - LAG(datetime) OVER (ORDER BY datetime) AS time_diff
+	    FROM dim_date_times
+	) subquery
+	GROUP BY year
+	ORDER BY year;
+	
+	
+	
+	-- select * from dim_date_times
+2023-10-22 08:50:47.145 BST [223904] ERROR:  column "subquery.datetime" must appear in the GROUP BY clause or be used in an aggregate function at character 133
+2023-10-22 08:50:47.145 BST [223904] STATEMENT:  -- Calculate the average time difference in hours, minutes, and seconds between sales, grouped by year
+	SELECT
+	    EXTRACT(YEAR FROM datetime) AS year,
+	    JSON_BUILD_OBJECT(
+	        'hours', AVG(hours_diff),
+	        'minutes', AVG(minutes_diff),
+	        'seconds', AVG(seconds_diff),
+	        'milliseconds', AVG(milliseconds_diff)
+	    ) AS actual_time_taken
+	FROM (
+	    SELECT
+	        datetime,
+	        EXTRACT(YEAR FROM datetime) AS year,
+	        EXTRACT(EPOCH FROM LEAD(datetime) OVER (ORDER BY datetime) - datetime) AS time_diff,
+	        EXTRACT(HOUR FROM LEAD(datetime) OVER (ORDER BY datetime) - datetime) AS hours_diff,
+	        EXTRACT(MINUTE FROM LEAD(datetime) OVER (ORDER BY datetime) - datetime) AS minutes_diff,
+	        EXTRACT(SECOND FROM LEAD(datetime) OVER (ORDER BY datetime) - datetime) AS seconds_diff,
+	        EXTRACT(MICROSECONDS FROM LEAD(datetime) OVER (ORDER BY datetime) - datetime) AS microseconds_diff,
+	        EXTRACT(MICROSECONDS FROM LEAD(datetime) OVER (ORDER BY datetime) - datetime) / 1000 AS milliseconds_diff
+	    FROM dim_date_times
+	) subquery
+	GROUP BY year
+	ORDER BY year;
+	
+	
+	
+	-- select * from dim_date_times
+2023-10-22 08:58:37.551 BST [223904] ERROR:  column "subquery.datetime" must appear in the GROUP BY clause or be used in an aggregate function at character 30
+2023-10-22 08:58:37.551 BST [223904] STATEMENT:  SELECT
+	    EXTRACT(YEAR FROM datetime) AS year,
+	    JSON_BUILD_OBJECT(
+	        'hours', AVG(hours_diff),
+	        'minutes', AVG(minutes_diff),
+	        'seconds', AVG(seconds_diff),
+	        'milliseconds', AVG(milliseconds_diff)
+	    ) AS actual_time_taken
+	FROM (
+	    SELECT
+	        datetime,
+	        EXTRACT(YEAR FROM datetime) AS year,
+	        EXTRACT(EPOCH FROM LEAD(datetime) OVER (ORDER BY datetime) - datetime) AS time_diff,
+	        EXTRACT(HOUR FROM LEAD(datetime) OVER (ORDER BY datetime) - datetime) AS hours_diff,
+	        EXTRACT(MINUTE FROM LEAD(datetime) OVER (ORDER BY datetime) - datetime) AS minutes_diff,
+	        EXTRACT(SECOND FROM LEAD(datetime) OVER (ORDER BY datetime) - datetime) AS seconds_diff,
+	        EXTRACT(MICROSECONDS FROM LEAD(datetime) OVER (ORDER BY datetime) - datetime) AS microseconds_diff,
+	        EXTRACT(MICROSECONDS FROM LEAD(datetime) OVER (ORDER BY datetime) - datetime) / 1000 AS milliseconds_diff
+	    FROM dim_date_times
+	) subquery
+	GROUP BY year
+	ORDER BY year;
+	
+	
+	
+	
+	-- select * from dim_date_times
+2023-10-22 09:00:58.736 BST [223904] ERROR:  function pg_catalog.extract(unknown, numeric) does not exist at character 93
+2023-10-22 09:00:58.736 BST [223904] HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2023-10-22 09:00:58.736 BST [223904] STATEMENT:  SELECT
+	    EXTRACT(YEAR FROM datetime) AS year,
+	    JSON_BUILD_OBJECT(
+	        'hours', AVG(EXTRACT(HOUR FROM time_diff)),
+	        'minutes', AVG(EXTRACT(MINUTE FROM time_diff)),
+	        'seconds', AVG(EXTRACT(SECOND FROM time_diff)),
+	        'milliseconds', AVG(EXTRACT(MICROSECONDS FROM time_diff) / 1000)
+	    ) AS actual_time_taken
+	FROM (
+	    SELECT
+	        datetime,
+	        EXTRACT(EPOCH FROM LEAD(datetime) OVER (ORDER BY datetime) - datetime) AS time_diff
+	    FROM dim_date_times
+	) subquery
+	GROUP BY year
+	ORDER BY year;
+	
+	
+	
+	-- select * from dim_date_times
+	
+2023-10-22 09:02:17.274 BST [223904] ERROR:  function pg_catalog.extract(unknown, numeric) does not exist at character 99
+2023-10-22 09:02:17.274 BST [223904] HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2023-10-22 09:02:17.274 BST [223904] STATEMENT:  SELECT
+	    EXTRACT(YEAR FROM datetime) AS year,
+	    JSON_BUILD_OBJECT(
+	        'hours', ROUND(AVG(EXTRACT(HOUR FROM time_diff)::numeric), 0),
+	        'minutes', ROUND(AVG(EXTRACT(MINUTE FROM time_diff)::numeric), 0),
+	        'seconds', ROUND(AVG(EXTRACT(SECOND FROM time_diff)::numeric), 0),
+	        'milliseconds', ROUND(AVG(EXTRACT(MICROSECONDS FROM time_diff)::numeric) / 1000, 0)
+	    ) AS actual_time_taken
+	FROM (
+	    SELECT
+	        datetime,
+	        EXTRACT(EPOCH FROM LEAD(datetime) OVER (ORDER BY datetime) - datetime) AS time_diff
+	    FROM dim_date_times
+	) subquery
+	GROUP BY year
+	ORDER BY year;
+	
+	
+	
+	
+	-- select * from dim_date_times
+	
+2023-10-22 09:04:35.346 BST [223904] ERROR:  could not identify an ordering operator for type json at character 503
+2023-10-22 09:04:35.346 BST [223904] HINT:  Use an explicit ordering operator or modify the query.
+2023-10-22 09:04:35.346 BST [223904] STATEMENT:  SELECT
+	    EXTRACT(YEAR FROM datetime) AS year,
+	    JSON_BUILD_OBJECT(
+	        'hours', TRUNC(AVG(time_diff) / 3600),
+	        'minutes', TRUNC(MOD(AVG(time_diff) / 60, 60)),
+	        'seconds', TRUNC(MOD(AVG(time_diff), 60)),
+	        'milliseconds', TRUNC(MOD(AVG(time_diff) * 1000, 1000))
+	    ) AS actual_time_taken
+	FROM (
+	    SELECT
+	        datetime,
+	        EXTRACT(EPOCH FROM LEAD(datetime) OVER (ORDER BY datetime) - datetime) AS time_diff
+	    FROM dim_date_times
+	) subquery
+	GROUP BY year
+	ORDER BY actual_time_taken DESC;
+	
+	
+	
+	-- select * from dim_date_times
+	
+2023-10-22 09:50:37.563 BST [223904] ERROR:  relation "your_table_name" does not exist at character 691
+2023-10-22 09:50:37.563 BST [223904] STATEMENT:  SELECT
+	    year,
+	    JSON_BUILD_OBJECT(
+	        'hours', AVG(hours_diff),
+	        'minutes', AVG(minutes_diff),
+	        'seconds', AVG(seconds_diff)
+	    ) AS avg_time_difference
+	FROM (
+	    SELECT
+	        year,
+	        EXTRACT(EPOCH FROM LEAD(ts) OVER (ORDER BY ts) - ts) AS time_diff,
+	        EXTRACT(HOUR FROM LEAD(ts) OVER (ORDER BY ts) - ts) AS hours_diff,
+	        EXTRACT(MINUTE FROM LEAD(ts) OVER (ORDER BY ts) - ts) AS minutes_diff,
+	        EXTRACT(SECOND FROM LEAD(ts) OVER (ORDER BY ts) - ts) AS seconds_diff
+	    FROM (
+	        SELECT
+	            EXTRACT(YEAR FROM TO_TIMESTAMP(timestamp, 'HH24:MI:SS')) AS year,
+	            TO_TIMESTAMP(timestamp, 'HH24:MI:SS') AS ts
+	        FROM your_table_name
+	    ) subquery
+	) subquery2
+	GROUP BY year
+	ORDER BY AVG(time_diff) DESC;
+	

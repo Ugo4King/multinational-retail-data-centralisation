@@ -11,12 +11,13 @@ This repository contains code for extracting data from various sources, includin
     2. [data_extraction.py](#data-extraction)
     3. [data_cleaning.py](#data-cleaning)
     4. [main.py](#main)
-4. [Getting Started](#getting-started)
+4. [data_cleaning.sql](#data-cleaning-SQL)
+5. [Getting Started](#getting-started)
     1. [Prerequisites](#prerequisites)
     2. [Installation](#installation)
-5. [Running the Project](#running-the-project)
-6. [Contributing](#contributing)
-7. [License](#license)
+6. [Running the Project](#running-the-project)
+7. [Contributing](#contributing)
+8. [License](#license)
 
 ## Introduction <a name="introduction"></a>
 
@@ -55,6 +56,10 @@ This script contains a class for cleaning data in a Pandas DataFrame. It include
 ### main.py <a name="main"></a>
 
 This script demonstrates how to use the classes defined in the other scripts to extract data from various sources, clean it, and load it into a PostgreSQL database. It provides examples of how to use the classes and methods to perform these tasks.
+
+### data_cleaning.sql <a name="data-cleaning-SQL"></a>
+
+The provided SQL script performs a comprehensive set of data operations and analyses on a relational database. It begins by standardizing data types and establishing foreign key constraints in the `orders_table` to ensure data consistency and integrity. Subsequently, similar data type adjustments and primary key assignments are made in other dimension tables, such as `dim_users_table`, `dim_store_details`, `dim_products`, and `dim_card_details`. Furthermore, the script creates a new 'weight_class' column in `dim_products` and updates the 'still_available' column with boolean values. The script concludes with a series of data analysis queries, addressing specific business requirements related to country-based store distribution, store location analysis, sales by month, online vs. offline sales, store type revenue percentages, historical sales, staff numbers by country, store type analysis in Germany, and average time between sales. This script serves the purpose of both data preparation and providing valuable insights for informed decision-making and business analysis.
 
 ## Getting Started <a name="getting-started"></a>
 
@@ -112,9 +117,10 @@ To run this project, you need Python installed on your system. You should also h
    ```bash
    python main.py
    ```
-
    This script demonstrates how to use the defined classes and methods to extract, clean, and load data. You can modify this script to specify which data sources you want to work with and where to store the cleaned data.
-
+   
+3. Connect to PostgreSQL and perform the SQL script to complet the data cleaning and provide solutions to the business reqirements.
+ 
 ## Contributing <a name="contributing"></a>
 
 Contributions to this project are welcome. If you find issues or have suggestions for improvements, please open a GitHub issue and provide details. You can also submit pull requests to contribute code enhancements.
