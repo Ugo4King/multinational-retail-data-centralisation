@@ -1,7 +1,8 @@
-from database_utils import DatabaseConnector
-from config import headers, base_url
+from database_utils import DataConnector
 import pandas as pd
 import tabula
+import requests
+import boto3
 
 class DataExtractor:
     def __init__(self, db_connector):
@@ -9,7 +10,7 @@ class DataExtractor:
 
     def read_rds_table(self, table_name):
         # Check if the specified table exists in the database
-        table_names = self.db_connector.list_db_tables()
+        table_names = self.db_connector.list_db_table()
         if table_name not in table_names:
             raise ValueError(f"Table '{table_name}' not found in the database.")
 
@@ -23,7 +24,7 @@ class DataExtractor:
     
     def retrieve_pdf_data(self, link):
         self.link = link
-        dfs = tabula.read_pdf(self.link)
+        dfs = tabula.read_pdf(self.link, pages='all')
         
         # Concatenate the list of DataFrames into a single DataFrame
         combined_df = pd.concat(dfs, ignore_index=True)
@@ -62,26 +63,26 @@ class DataExtractor:
         data_from_s3 = pd.read_csv(destination_file_location)
         return data_from_s3
         
-    def extract_Json_data_from_web_link(json_link):
+    def extract_Json_data_from_web_link(self, json_link):
         Json_data = pd.read_json(json_link)
         return Json_data
         
-if __name__ == "__main__":
-    url = 'https://data-handling-public.s3.eu-west-1.amazonaws.com/card_details.pdf'
-    # Create an instance of the DatabaseConnector
-    db = DatabaseConnector('db_creds.yaml')
+# if __name__ == "__main__":
+#     url = 'https://data-handling-public.s3.eu-west-1.amazonaws.com/card_details.pdf'
+#     # Create an instance of the DatabaseConnector
+#     db = DatabaseConnector('db_creds.yaml')
     
-    # Create an instance of the DataExtractor class
-    data_extractor = DataExtractor(db)
+#     # Create an instance of the DataExtractor class
+#     data_extractor = DataExtractor(db)
     
-    # Retrieve PDF data
-    data_from_pdf = data_extractor.retrieve_pdf_data(url)
+#     # Retrieve PDF data
+#     data_from_pdf = data_extractor.retrieve_pdf_data(url)
     
-    # Specify the table name you want to read
-    table_name = 'legacy_store_details'
+#     # Specify the table name you want to read
+#     table_name = 'legacy_store_details'
     
-    # Call the method to read the table and get a Pandas DataFrame
-    table_dataframe = data_extractor.read_rds_table(table_name)
+#     # Call the method to read the table and get a Pandas DataFrame
+#     table_dataframe = data_extractor.read_rds_table(table_name)
     
-    # Now you can work with the 'data_from_pdf' and 'table_dataframe' as needed.
-    data_from_pdf.head(3)  # Display the first few rows of the combined PDF data
+#     # Now you can work with the 'data_from_pdf' and 'table_dataframe' as needed.
+#     data_from_pdf.head(3)  # Display the first few rows of the combined PDF data
